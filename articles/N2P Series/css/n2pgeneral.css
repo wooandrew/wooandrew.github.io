@@ -41,6 +41,10 @@ article {
     margin-bottom: 0px;
 }
 
+.sub {
+    padding-left: 5px;
+}
+
 .info {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -49,8 +53,17 @@ article {
     font-weight: 100;
 }
 
+#keybinds {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 .prevnext, .prevnext a {
     text-align: center;
     text-decoration: none;
+}
+
+p {
+    padding: 0px;
 }
