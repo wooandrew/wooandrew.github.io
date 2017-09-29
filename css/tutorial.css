@@ -1,0 +1,67 @@
+/* CSS File for Tutorials */
+
+#header {
+    font-family: "AcherusMilitant", sans-serif;
+}
+
+.link a:link,
+.link a:visited {
+    color: blue;
+}
+
+/* Sidebar */
+.sidebar {
+    max-width: 23%; 
+    min-width: 23%;
+    float: right;
+}
+
+aside {
+    max-width: 100%;
+    border: 3px dashed darkgreen;
+
+    background-color: white;
+    font-family: "AcherusMilitant", "Arial", sans-serif;
+    padding: 5px;
+}
+
+.suggestions {
+    text-align: left;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.go {
+    float: right;
+}
+
+
+/* Articles */
+.articles {
+    max-width: 75%;
+}
+
+article {
+    max-width: 100%;
+    border: 3px dashed darkgreen;
+    background-color: white;
+}
+
+.article {
+    margin: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    font-family: "AcherusMilitant", "Arial", sans-serif;
+}
+
+.article.title {
+    font-size: 1.3rem;
+}
+
+.article.body {
+    font-size: 12px;   
+}
+span.readmore {
+    float: right;
+}

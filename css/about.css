@@ -1,0 +1,38 @@
+/* CSS File for About Page */
+
+.about {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 800px;
+
+    padding: 0.2rem;
+    
+    border: 5px dashed;
+}
+
+#aboutsite h1 {
+    color: #966D45;
+    
+    margin: -5px;
+    
+    text-align: center;
+    font-family: "AcherusMilitant", sans-serif;
+}
+
+#aboutsite p, #aboutsite blockquote {
+    color: #966D45;
+    font-size: 0.9rem;
+    font-family: "AcherusMilitant", sans-serif;
+}
+
+#info {
+    text-align: right;
+}
+
+span.aboutspan {
+    background-color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+}
