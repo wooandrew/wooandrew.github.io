@@ -1,0 +1,14 @@
+INFOFILE
+
+This project is property of Andrew Woo and Abby Mills, 2017
+The creation of this basic website was suggested by Abby Mills.
+The website was coded by Andrew Woo.
+
+Information:
+
+Guide to AAPG [America's Army: Proving Grounds] is a challenge inspired by
+Abby Mills to create a website with a sort of guide to becoming better at AAPG.
+
+This website contains material that is strictly compromised of my personal
+experience in AAPG. Statistics, however, maybe taken from a wiki site or the
+official AAPG website [americasarmy.com].

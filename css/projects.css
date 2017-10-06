@@ -1,0 +1,144 @@
+/* CSS file for Projects _ projects.css */
+
+.title {
+    text-align: center;
+    
+    font-family: "AcherusMilitant", "Nexa", sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#line {
+    margin: auto;
+    
+    width: 70px;
+    height: 2px;
+    border-bottom: 2px solid black;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+.non {
+    float: left;
+    width: 60%;
+}
+
+.img {
+    float: right;
+    width: 40%;
+}
+
+.project.title {
+    text-align: left;
+}
+
+h3.project.title {
+    position: relative;
+    
+    margin-top: 0px;
+    font-weight: 100;
+    font-size: 30px;
+    
+    border-bottom: 1px solid black;
+}
+
+p.project.desc {
+    margin-top: 5px;
+    position: relative;
+    
+    font-size: 20px;
+}
+
+p.project.version {
+    margin: 0;
+    padding: 5px;
+    padding-left: 0;
+    
+    width: 60%;
+    
+    bottom: 0;
+    text-align: right;
+    position: absolute;
+}
+
+/* GTAAPG */
+.project.gtaapg {
+    overflow: auto;
+    position: relative;
+    
+    margin-top: 50px;
+    
+    padding-top: 10px;
+    border-top: 1px dashed black;
+}
+
+.project.gtaapg img {
+    width: 95%;
+    float: right;
+    
+    border-radius: 5%;
+}
+
+.link.gtaapg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    padding: 5px;
+    border: 1px solid black;
+}
+
+/* Directory.h */
+.project.directoryh {
+    overflow: auto;
+    position: relative;
+    
+    margin-top: 10px;
+    
+    padding-top: 10px;
+    border-top: 1px dashed black;
+}
+
+.project.directoryh img {
+    width: 95%;
+    float: right;
+    
+    border: 1px solid #e2e2de;
+    border-radius: 5%;
+}
+
+.link.directoryh {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
+/* Encryptor */
+.project.encryptor {
+    overflow: auto;
+    position: relative;
+    
+    margin-top: 10px;
+    
+    padding-top: 10px;
+    border-top: 1px dashed black;
+}
+
+/* Footer override */
+
+.footer {
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+}
