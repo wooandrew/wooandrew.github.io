@@ -61,6 +61,14 @@ p.project.desc {
     
     padding: 5px;
     border: 1px solid black;
+    
+    font-family: "AcherusMilitant", "Nexa", sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+    
+    background-color: white;
+    
+    cursor: pointer;
 }
 
 p.project.version {
