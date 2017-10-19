@@ -71,6 +71,23 @@ p.project.desc {
     cursor: pointer;
 }
 
+.pj.link {
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    
+    padding: 5px;
+    border: 1px solid black;
+    
+    font-family: "AcherusMilitant", "Nexa", sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+    
+    background-color: white;
+    
+    cursor: pointer;
+}
+
 p.project.version {
     margin: 0;
     padding: 5px;
