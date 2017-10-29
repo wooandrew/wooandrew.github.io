@@ -165,6 +165,25 @@ p.project.version {
     border-radius: 5%;
 }
 
+/* Lone Soldier */
+.project.loner {
+    overflow: auto;
+    position: relative;
+    
+    margin-top: 10px;
+    
+    padding-top: 10px;
+    border-top: 1px dashed black;
+}
+
+.project.loner img {
+    width: 95%;
+    float: right;
+    
+    border: 1px solid #e2e2de;
+    border-radius: 5%;
+}
+
 /* Placeholder */
 .project.placeholder {
     overflow: auto;
