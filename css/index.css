@@ -49,7 +49,7 @@ a:link, a:visited {
 /* Middle Content */
 .middle {
     left: 0;
-    right: 0;
+    right: 0;    
 }
 
 #motto {
@@ -69,15 +69,6 @@ a:link, a:visited {
     font-family: "AcherusMilitant", "Nexa", sans-serif;
 }
 
-.right {
-    margin-right: 10%;
-    text-align: center;
-    float: right;
-    max-width: 20%;
-    min-width: 20%;
-    
-    border: 2px solid black;
-}
 .left {
     margin-left: 10%;
     text-align: center;
@@ -85,16 +76,31 @@ a:link, a:visited {
     max-width: 20%;
     min-width: 20%;
     
-    border: 2px solid black;
+    border: 1px solid black;
+    
+    box-shadow: 0 0 6px black;
 }
 .center {
     text-align: center;
     margin: auto;
     max-width: 20%;
     
-    border: 2px solid black;
+    border: 1px solid black;
+    
+    box-shadow: 0 0 6px black;
+    
 }
-
+.right {
+    margin-right: 10%;
+    text-align: center;
+    float: right;
+    max-width: 20%;
+    min-width: 20%;
+    
+    border: 1px solid black;
+    
+    box-shadow: 0 0 6px black;
+}
 
 #projlink {
     border: 1px solid black;
