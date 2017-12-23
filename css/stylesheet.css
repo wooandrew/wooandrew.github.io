@@ -31,10 +31,9 @@ body {
 
 /* Header */
 header {
-    background-color: #EFEFEF;
+    background-color: #D50001;
     
     padding-bottom: 7px;
-    border-bottom: 2px solid grey;
     
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -70,18 +69,25 @@ header {
 }
 
 /* Footer */
+
+.push {
+    margin-top: 15px;
+    background-color: #D50001;
+}
+
 .footer {
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     text-align: center;
-    background-color: #efefef;
-    border-top: 3px solid darkgrey;
-    border-bottom: 3px solid darkgrey;
+    background-color: #440506;
+    border-top: 3px solid #440506;
+    border-bottom: 3px solid #440506;
 }
 
 span.copyright {
     float: center;
     font-family: "Nexa", sans-serif;
+    color: white;
 }
