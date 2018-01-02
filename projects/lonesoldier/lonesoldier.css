@@ -1,0 +1,113 @@
+/* Lone Soldier _ lonesoldier.css */
+
+body {
+    font-family: 'Jura', 'Arial', sans-serif;
+    margin: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    
+    background-color: #004171;
+    
+    flex-basis: 100%;
+    flex-flow: column;
+}
+
+.header h1 {
+    flex: 0 0 100%;
+    font-size: 3em;
+    margin: 0 3px 3px 10px;
+}
+
+/* Content */
+.content {
+    display: flex;
+    
+    flex-flow: column;
+    align-items: center;
+}
+
+/* Top */
+.top {
+    position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.top:hover .overlay{
+    display: block;
+    background: rgba(0, 0, 0, .3);
+}
+
+.top:hover .download-file {
+    opacity: 1;
+}
+
+.top img {
+    width: 100%;
+}
+
+.download-file {
+    display: flex;
+    flex-flow: column;
+    
+    position: absolute;
+    bottom: calc(50% - 44.5px);
+    left: calc(50% - 87px);
+       
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.download-file a {
+    padding: 12px 48px;
+    
+    color: white;
+    border: solid 2px white;
+    
+    z-index: 1;
+}
+
+.download-file p {
+    margin: 0 0 3px 0;
+    font-size: 2em;
+    color: white;
+}
+
+/* Middle */
+#middle {
+    display: flex;
+    flex-flow: row;
+    
+    justify-content: center space-around;
+    
+    width: 90%;
+}
+
+.left, .center, .right {
+    width: 30%;
+    border: 2px black solid;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    
+    position: absolute;
+    background-color: grey;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
