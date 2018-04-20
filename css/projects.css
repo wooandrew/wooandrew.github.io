@@ -100,12 +100,39 @@ p.project.version {
     position: absolute;
 }
 
+/* The Boredom Project */
+.project.theboredomproject {
+    overflow: auto;
+    position: relative;
+    
+    margin-top: 50px;
+    
+    padding-top: 10px;
+    border-top: 1px dashed black;
+}
+
+.project.theboredomproject img {
+    width: 95%;
+    float: right;
+    
+    border: 1px solid #e2e2de;
+    border-radius: 5%;
+}
+.link.theboredomproject {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    padding: 5px;
+    border: 1px solid black;
+}
+
 /* GTAAPG */
 .project.gtaapg {
     overflow: auto;
     position: relative;
     
-    margin-top: 50px;
+    margin-top: 10px;
     
     padding-top: 10px;
     border-top: 1px dashed black;
