@@ -8,6 +8,8 @@ body {
     position: relative;
     margin: 0;
     min-height: 100%;
+    
+    background-color: #042952;
 }
 
 /* Header */
@@ -19,14 +21,45 @@ header {
 }
 
 .webtitle {
-    font-size: 40px;
+    font-size: 70px;
+    font-weight: 100;
     font-family: "AcherusMilitant", "Arial", sans-serif;
+    
+    text-align: center;
 
     color: #00435a;
     
-    margin-top: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
 /* Content */
+
+.iconslide {
+    display: flex;
+    justify-content: space-evenly;
+    
+    max-width: 50%;
+    margin: 0 auto;
+    
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.quote {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    
+    background-color: #071f39;
+    
+    text-align: center;
+}
+
+.quote p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
