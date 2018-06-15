@@ -86,8 +86,11 @@ th:last-child {
     border-left: 1px solid black;
 }
 
-/* Section */
+/* Section n1 */
 section {
+    display: flex;
+    flex-direction: column;
+    
     float: right;
     font-family: "Nexa", sans-serif;
     
