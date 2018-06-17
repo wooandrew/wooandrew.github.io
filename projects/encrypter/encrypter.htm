@@ -31,11 +31,11 @@
                 <table align="center">
                     <tr>
                         <th id="exe">
-                            <a href="windows_x86_encrypter_version_2_0_3.msi" download><div>MSI<br>Download</div>
+                            <a href="windows_x86_encrypter_version_2_0_4.msi" download><div>MSI<br>Download</div>
                             </a>
                         </th>
                         <th id="7z">
-                            <a href="windows_x86_encrypter_version_2_0_3.7z" download><div>7z<br>Download</div>
+                            <a href="windows_x86_encrypter_version_2_0_4.7z" download><div>7z<br>Download</div>
                             </a>
                         </th>
                         <th id="src">
@@ -47,7 +47,7 @@
                 
                 <p style="text-align:center;"><br>Report bugs to <a href="mailto:flamingthanatos@gmail.com">flamingthanatos@gmail.com</a></p>
                 
-                <p style="text-align:center;">Current version: 2.0.3</p>
+                <p style="text-align:center;">Current version: 2.0.4</p>
                 
                 <br><br>
                 
@@ -67,8 +67,41 @@
                             Your browser does not support the video tag. Please check https://www.w3schools.com/html/html5_video.asp for more information.
                         </video>
                     </li>
-                    <li>TUTORIAL COMING SOON.</li>
+                    <hr>
+                    <p>Hey! Welcome to the Encrypter tutorial.<br>
+                    Several things have changed in the most recent major update (2.0.0).<br>Most notably, I have added a proper mostly functional graphical user interface (GUI), and the original encryption algorithm has been replaced by 2 others:</p>
+                    <blockquote>The eXclusive OR (XOR) cipher, a bit-level encryption algorithm based on the XOR gate<br>and my Really Bad Encryption Algorithm (RBEA), which is a simple mathematical function.</blockquote>
+                    
+                    <p>
+                    Please note that Encrypter is only a programming challenge and should not be used to encrypt truly important data
+                    such as passwords, pin codes, banking data, and other such important information.<br>While XOR is a one-time pad algorithm and thus is relatively safe, RBEA is NOT, and should NEVER be used to encrypt data more sensitive than a personal journal.
+                    </p><hr><br>
                 </ul>
+                <ol style="list-style-type:none;margin:0;">
+                    <li>1. Using Encrypter is fairly simple. First, start the provided GUI:</li><br>
+                    <img style="display:block;margin:auto;" src="img/gui1.PNG" alt="encrypter gui image 1"><br>
+                    <li>2. Next, choose an algorithm to use:</li><br>
+                    <img style="display:block;margin:auto;" src="img/gui2.PNG" alt="encrypter gui image 2"><br>
+                    <li>3. Next, enter a password:</li><br>
+                    <img style="display:block;margin:auto;" src="img/gui3.PNG" alt="encrypter gui image 3"><br>
+                    <li>4. Next, choose an input type. If you are encrypting/decrypting data from a text or other file, use <code style="color:blue;">-file</code>. If you want to encrypt/decrypt data from a line, use <code style="color:blue;">-line</code>:</li><br>
+                    <img style="display:block;margin:auto;" src="img/gui4.PNG" alt="encrypter gui image 4"><br>
+                    <li>5. Next, the data:</li><br>
+                    
+                    <p style="text-align:center;">If you chose <code style="color:blue;">-file</code>, enter the path to the file:</p>
+                    <img style="display:block;margin:auto;" src="img/gui5.PNG" alt="encrypter gui image 5"><br>
+                    <p style="text-align:center;">If you chose <code style="color:blue;">-line</code>, enter the string you wish to encrypt:</p>
+                    <img style="display:block;margin:auto;" src="img/gui6.PNG" alt="encrypter gui image 6"><br>
+                    
+                    <li>6. Next, choose an output type:</li><br>
+                    <p style="text-align:center;">If you want to output to the preview area, choose <code style="color:blue;">line</code>:</p>
+                    <img style="display:block;margin:auto;" src="img/gui7.PNG" alt="encrypter gui image 7"><br>
+                    <p style="text-align:center;">If you want to output to a text file or other file type, choose <code style="color:blue;">file</code>:</p>
+                    <img style="display:block;margin:auto;" src="img/gui8.PNG" alt="encrypter gui image 8"><br>
+                    <p style="text-align:center;">Alternatively, leave the File Path input blank. The encrypted/decrypted data will be outputted to your personal Documents file, and named <code>__def_enc_output.txt</code>.</p><br>
+                    <li>7. Finally, press the Encrypt/Decrypt button:</li><br>
+                    <img style="display:block;margin:auto;" src="img/gui9.PNG" alt="encrypter gui image 9"><br>
+                </ol>
             </section>
             
             <footer>
