@@ -1,0 +1,190 @@
+﻿Free Fall : Game by Andrew Woo
+Email: seungminleader@gmail.com
+Website: flamingthanatos.github.io
+
+Project Start Date: 7/15/2018 @ 12:00 PM
+
+// ------------------------------------------------------------------------- \\
+FREE FALL Game Concept
+
+Stage 1: Jump off plane.
+Stage 2: Free fall.
+Stage 3: Land.
+
+Scene types:
+	s-1 -> Hanging from plane mode
+	i.e Hanging from plane before jumping
+
+	s-2 -> Freefall mode
+	i.e Regular free-fall form (belly down, arms/legs out)
+
+	s-3 -> Dive mode
+	i.e Like an arrow (head down, arms tucked in to reduce air resistance)
+
+	s-4 -> Parachute mode
+	i.e Deploy parachute (user controlled ??)
+
+	s-5 -> Standing/Landed mode
+	i.e On the ground, parachute off (End run)
+
+Highscore ??
+Scoring system ??
+// ------------------------------------------------------------------------- \\
+
+
+TODO:
+
+Updated: 7/15/2018 @ 5:45 PM
+
+Game Engine - WORKING
+
+	-> Window						WORKING
+		✓ Window creation
+		> Block window resizing
+
+	-> Graphics						WORKING
+		✓ Texture loading
+		✓ Sprite rendering
+		> Font rendering
+
+	-> Input						DONE
+		✓ Mouse
+		✓ Keyboard
+
+	-> Math							WORKING
+		✓ namespace Vector
+		> namespace Math
+		> Rect creation
+
+	-> Physics						NOT STARTED
+		> Rigidbody creation
+		> Collision detection
+	
+	-> Object						NOT STARTED
+		> Object creation
+		> Bind Sprite
+		> Bind Rigidbody
+
+	-> Error Handling					WORKING
+		✓ Output engine errors
+		> Output engine errors to file
+		> Create crashlog function
+
+-------------------------------------------------------------------------
+
+Miscellaneous - WORKING
+
+	-> Miscellaneous functions				WORKING
+		✓ GetDateTime function
+
+-------------------------------------------------------------------------
+
+Game Logic - WORKING
+
+	-> Game State manager					WORKING
+		> Menu Screen state
+		> High-Score Screen state
+		> Play Game state
+		> Game Over state
+
+	-> Player Data						NOT STARTED
+		> Meters moved since start
+		> Meters freefalled since start
+		> Lives remaining
+		> isDiving ? increase speed
+		> isParachuting ? decrease speed
+
+	-> Player State						NOT STARTED
+		> Hanging on plane state
+		> Freefall state
+		> Dive state
+		> Parachute state
+		> Standing/Landed state
+
+	-> Obstacles						NOT STARTED
+		> Bird flock obstacle generation
+		> Bird flock movement
+		> Floating debris obstacle generation
+		> Skybridge obstacle generation
+		> Flying car obstacle generation
+		> Flying car movement
+
+	-> Difficulty						NOT STARTED
+		> Actually trash
+		> Easy
+		> Medium
+		> Hard
+		> ITS OVER 9000!1!!
+
+	-> Scoring						NOT STARTED
+		> Subtract points on obstacle hit
+		> Subtract points on exceeding time limit
+		> Subtract points on Life lost
+		> Subtract points on death
+		> Add points per meter freefalled
+		> Add x2 points per meter dived
+		> Add points per second left on limit
+
+-------------------------------------------------------------------------
+
+Graphics - WORKING
+
+	-> Test							DONE
+		✓ Create Test sprite
+
+	-> Main Player Sprite					NOT STARTED
+		> Create Hanging from plane state
+		> Create Freefall state
+		> Create Dive state
+		> Create Parachute state
+		> Create Standing/Landed state
+
+	-> Obstacles						NOT STARTED
+		> Create Bird image
+		> Create Floating debris image
+		> Create Skybridge image
+		> Create Flying car image
+
+	-> Background						NOT STARTED
+		> Create Tree image
+		> Create Cityscape
+		> Create Skyline	??
+		> Create Landing Zone image
+		> Create Warning: No Fly Zone image
+		> Create Warning: Skydivers image
+
+	-> Game Info						NOT STARTED
+		> WARNING! Exceeding Safe Speeds! image
+		> WARNING! Approaching Ground! image
+		> Arrow point towards obstacles image ??
+		> Current score
+		> Previous score
+		> High score ??
+		> Lives remaining
+
+	-> Cutscene						NOT STARTED
+		> Start round ??
+		> End round ??
+		> Deploy parachute
+
+-------------------------------------------------------------------------
+
+Music/Sound - NOT STARTED
+
+	-> Game							NOT STARTED
+		> Music
+		> Airplane noise
+		> Game over noise
+		> Cutscene music ??
+
+	-> Player						NOT STARTED
+		> Whooping noise
+		> Screaming noise
+		> Hitting Birds noise
+		> Hitting Floating debris noise
+		> Hitting Skybridge noise
+		> Hitting Flying car noise
+
+	-> Obstacle						NOT STARTED
+		> Bird chirping
+		> Car engine
