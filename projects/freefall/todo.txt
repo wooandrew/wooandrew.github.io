@@ -51,10 +51,10 @@ Game Engine - WORKING
 		✓ Mouse
 		✓ Keyboard
 
-	-> Math							WORKING
+	-> Math							DONE
 		✓ namespace Vector
-		> namespace Math
-		> Rect creation
+		✓ namespace Math
+		✓ Rect creation
 
 	-> Physics						WORKING
 		✓ Rigidbody creation
