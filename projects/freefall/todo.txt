@@ -34,18 +34,18 @@ Scoring system ??
 
 TODO:
 
-Updated: 7/15/2018 @ 5:45 PM
+Updated: 7/16/2018 @ 12:55 PM
 
 Game Engine - WORKING
 
-	-> Window						WORKING
+	-> Window						DONE
 		✓ Window creation
-		> Block window resizing
+		✓ Block window resizing
 
-	-> Graphics						WORKING
+	-> Graphics						DONE
 		✓ Texture loading
 		✓ Sprite rendering
-		> Font rendering
+		✓ Font rendering
 
 	-> Input						DONE
 		✓ Mouse
@@ -56,8 +56,8 @@ Game Engine - WORKING
 		> namespace Math
 		> Rect creation
 
-	-> Physics						NOT STARTED
-		> Rigidbody creation
+	-> Physics						WORKING
+		✓ Rigidbody creation
 		> Collision detection
 	
 	-> Object						NOT STARTED
@@ -65,10 +65,10 @@ Game Engine - WORKING
 		> Bind Sprite
 		> Bind Rigidbody
 
-	-> Error Handling					WORKING
+	-> Error Handling					DONE
 		✓ Output engine errors
-		> Output engine errors to file
-		> Create crashlog function
+		✓ Output engine errors to file
+		✓ Create crashlog function
 
 -------------------------------------------------------------------------
 
@@ -79,9 +79,9 @@ Miscellaneous - WORKING
 
 -------------------------------------------------------------------------
 
-Game Logic - WORKING
+Game Logic - NOT STARTED
 
-	-> Game State manager					WORKING
+	-> Game State manager					NOT STARTED
 		> Menu Screen state
 		> High-Score Screen state
 		> Play Game state
@@ -129,8 +129,14 @@ Game Logic - WORKING
 
 Graphics - WORKING
 
-	-> Test							DONE
+	-> Test							WORKING
 		✓ Create Test sprite
+		> Create Test hanging from plane
+		> Create Test freefall
+		> Create Test dive
+		> Create Test parachute
+		> Create Test standing/landed
+
 
 	-> Main Player Sprite					NOT STARTED
 		> Create Hanging from plane state
