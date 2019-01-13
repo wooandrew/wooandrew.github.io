@@ -32,7 +32,7 @@ header {
 }
 
 .content {
-    font-family: 'IndieFlower', sans-serif;;
+    font-family: 'IndieFlower', sans-serif;
 }
 
 .dlbuttons {
@@ -111,7 +111,7 @@ header {
     margin: 0;
 }
 
-table{
+table {
     border: 1px solid;
     width: 100%;
     text-align: center;
