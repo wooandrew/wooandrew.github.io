@@ -52,3 +52,9 @@ function showDivs(n) {
     x[globalindex-1].style.display = "block";  
     d[globalindex-1].className += " w3-grey";
 }
+
+function scrollDown() {
+    
+    var sd = document.getElementById('truebody');
+    sd.scrollIntoView();
+}
