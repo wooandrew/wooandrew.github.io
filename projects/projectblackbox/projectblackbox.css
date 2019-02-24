@@ -7,3 +7,7 @@ th, td {
     padding: 2px 8px 2px 8px;
     border: 1px solid #dddddd;
 }
+
+pre {
+    margin: 0;
+}
