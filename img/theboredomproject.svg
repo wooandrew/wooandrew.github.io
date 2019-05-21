@@ -18,6 +18,14 @@
    sodipodi:docname="theboredomproject.svg">
   <defs
      id="defs2">
+	 <style type="text/css" id="style7">
+		@font-face {
+			font-family: 'raleway';
+			font-style: normal;
+			font-weight: normal;
+			src: local('Raleway'), local('Raleway'), url('raleway.ttf') format('truetype');
+		}
+	</style>
     <filter
        inkscape:menu-tooltip="3D warped, fibered wood texture"
        inkscape:menu="Materials"

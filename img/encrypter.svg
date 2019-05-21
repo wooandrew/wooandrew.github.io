@@ -18,6 +18,14 @@
    sodipodi:docname="encrypter.svg">
   <defs
      id="defs2">
+      <style type="text/css" id="style7">
+		@font-face {
+			font-family: 'raleway';
+			font-style: normal;
+			font-weight: normal;
+			src: local('Raleway'), local('Raleway'), url('raleway.ttf') format('truetype');
+		}
+	</style>
     <filter
        inkscape:label="Jigsaw Piece"
        inkscape:menu="Bevels"
