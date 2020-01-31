@@ -1,11 +1,5 @@
-function toProject() {
+function toContent() {
     
-    var project_ = document.getElementById("project");
-    project_.scrollIntoView();
-}
-
-function toAbout() {
-    
-    var about_ = document.getElementById("about");
-    about_.scrollIntoView();
+    var content_ = document.getElementById("main");
+    content_.scrollIntoView();
 }

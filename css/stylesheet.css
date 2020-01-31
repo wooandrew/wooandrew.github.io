@@ -1,0 +1,381 @@
+
+/* HTML Tags */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    color: black;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Misc */
+.w3-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.w3-btn:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+}
+.no-border {
+    border: none;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 100vh;
+    
+    background-color: #1d1e22;
+}
+.headimg {
+    
+    display: block;
+    height: 60vh;
+    
+    margin: auto;
+    margin-top: 5vh;
+}
+.retzero {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    height: 90%;
+
+    font-family: consolas;
+    font-size: 15vh;
+
+    background: radial-gradient(circle, rgba(51,51,51,1) 0%, rgba(29,30,34,1) 60%); 
+}
+.retzerop {
+    color: gainsboro;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.dud {
+    color: #757575;
+}
+.checkstuffout {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+}
+.checkstuffout button {    
+    font-family: consolas;
+    font-size: 4vh;
+}
+
+
+
+
+/* Content Main */
+
+.content {
+    
+    width: 85%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.projects {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: wrap;
+    
+    font-family: "Raleway", sans-serif;
+    
+    width: 100%;
+}
+
+.project {
+    width: 45%;
+    margin-bottom: 1em;
+}
+
+.project object {
+    width: 100%;
+}
+
+.link {
+
+    
+    border-radius:32px;
+
+    color: black;
+    background-color: lightgray;
+
+    width: var(--width);
+    padding: 8px 0;
+}
+
+/* Content Main */
+
+
+
+
+/* Footer */
+footer {
+    
+    width: 100%;
+    height: 95px;
+    
+    background-color: #181716;
+    
+    text-align: center;
+    font-family: 'Nexa', sans-serif;
+    font-size: 15px;
+}
+.oinf {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: gainsboro;
+    
+    height: inherit;
+}
+.details {
+    margin: 0;
+}
+.webversion {
+    margin: 0;
+    margin-top: 8px;
+    font-size: 10px;
+}
+
+/* Animation */
+.glitch {
+    position: relative;
+}
+.glitch1 {
+    position: relative;
+}
+
+@keyframes noise-anim {
+    0% {
+        clip-path: inset(95% 0 1% 0);
+    }
+    5% {
+        clip-path: inset(81% 0 20% 0);
+    }
+    10% {
+        clip-path: inset(87% 0 11% 0);
+    }
+    15% {
+        clip-path: inset(42% 0 56% 0);
+    }
+    20% {
+        clip-path: inset(68% 0 18% 0);
+    }
+    25% {
+        clip-path: inset(21% 0 61% 0);
+    }
+    30% {
+        clip-path: inset(71% 0 25% 0);
+    }
+    35% {
+        clip-path: inset(33% 0 53% 0);
+    }
+    40% {
+        clip-path: inset(3% 0 40% 0);
+    }
+    45% {
+        clip-path: inset(38% 0 42% 0);
+    }
+    50% {
+        clip-path: inset(82% 0 10% 0);
+    }
+    55% {
+        clip-path: inset(51% 0 46% 0);
+    }
+    60% {
+        clip-path: inset(49% 0 25% 0);
+    }
+    65% {
+        clip-path: inset(3% 0 10% 0);
+    }
+    70% {
+        clip-path: inset(56% 0 22% 0);
+    }
+    75% {
+        clip-path: inset(53% 0 8% 0);
+    }
+    80% {
+        clip-path: inset(97% 0 2% 0);
+    }
+    85% {
+        clip-path: inset(6% 0 20% 0);
+    }
+    90% {
+        clip-path: inset(79% 0 4% 0);
+    }
+    95% {
+        clip-path: inset(64% 0 25% 0);
+    }
+    100% {
+        clip-path: inset(92% 0 8% 0);
+    }
+}
+
+.glitch::after {
+    
+    font-family: inherit;
+    font-size: inherit;
+    padding: inherit;
+    color: inherit;
+    
+    content: attr(data-text);
+    position: absolute;
+    left: 0.01px;
+    text-shadow: -1px 0 red;
+    top: 0;
+    background: inherit;
+    overflow: hidden;
+    animation: noise-anim 2s infinite linear alternate-reverse;
+}
+.glitch1::after {
+    
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    
+    content: attr(data-text);
+    position: absolute;
+    left: 5.5px;
+    text-shadow: -1px 0 red;
+    top: 0;
+    background: inherit;
+    overflow: hidden;
+    animation: noise-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2 {
+    0% {
+        clip-path: inset(46% 0 2% 0);
+    }
+    5% {
+        clip-path: inset(91% 0 4% 0);
+    }
+    10% {
+        clip-path: inset(97% 0 4% 0);
+    }
+    15% {
+        clip-path: inset(3% 0 69% 0);
+    }
+    20% {
+        clip-path: inset(78% 0 6% 0);
+    }
+    25% {
+        clip-path: inset(59% 0 21% 0);
+    }
+    30% {
+        clip-path: inset(6% 0 72% 0);
+    }
+    35% {
+        clip-path: inset(95% 0 2% 0);
+    }
+    40% {
+        clip-path: inset(78% 0 17% 0);
+    }
+    45% {
+        clip-path: inset(26% 0 44% 0);
+    }
+    50% {
+        clip-path: inset(28% 0 34% 0);
+    }
+    55% {
+        clip-path: inset(57% 0 1% 0);
+    }
+    60% {
+        clip-path: inset(58% 0 30% 0);
+    }
+    65% {
+        clip-path: inset(77% 0 19% 0);
+    }
+    70% {
+        clip-path: inset(100% 0 1% 0);
+    }
+    75% {
+        clip-path: inset(69% 0 8% 0);
+    }
+    80% {
+        clip-path: inset(66% 0 5% 0);
+    }
+    85% {
+        clip-path: inset(4% 0 78% 0);
+    }
+    90% {
+        clip-path: inset(82% 0 8% 0);
+    }
+    95% {
+        clip-path: inset(51% 0 6% 0);
+    }
+    100% {
+        clip-path: inset(54% 0 9% 0);
+    }
+}
+
+.glitch::before {
+    
+    font-family: inherit;
+    font-size: inherit;
+    padding: inherit;
+    color: inherit;
+    
+    content: attr(data-text);
+    position: absolute;
+    left: -0.5px;
+    text-shadow: 1px 0 blue;
+    top: 0;
+    background: inherit;
+    overflow: hidden;
+    animation: noise-anim-2 15s infinite linear alternate-reverse;
+}
+.glitch1::before {
+    
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    
+    content: attr(data-text);
+    position: absolute;
+    left: 4.5px;
+    text-shadow: 1px 0 blue;
+    top: 0;
+    background: inherit;
+    overflow: hidden;
+    animation: noise-anim-2 15s infinite linear alternate-reverse;
+}

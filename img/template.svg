@@ -14,7 +14,7 @@
    viewBox="0 0 300 300"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="template.svg">
   <defs
      id="defs2" />
@@ -25,24 +25,36 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.62308446"
-     inkscape:cx="622.17839"
-     inkscape:cy="638.86328"
+     inkscape:zoom="0.5"
+     inkscape:cx="770.69866"
+     inkscape:cy="676.00444"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     borderlayer="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:snap-grids="true"
-     inkscape:window-width="1680"
-     inkscape:window-height="987"
-     inkscape:window-x="-8"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="1358"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:snap-page="true">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4506" />
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="287.63988,296.71131"
+       orientation="0,1"
+       id="guide823"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="297.04204,292.69531"
+       orientation="1,0"
+       id="guide825"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="92.982142,13.985119"
+       orientation="0,1"
+       id="guide827"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -52,7 +64,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,33 +74,33 @@
      id="layer1"
      transform="translate(0,3)">
     <rect
-       style="opacity:1;fill:#999999;fill-opacity:1;stroke:none;stroke-width:7.92184401;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4583"
-       width="306.91666"
-       height="306.91666"
-       x="-3.4583282"
-       y="-6.4583282" />
+       style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.66499996;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect817"
+       width="300"
+       height="300"
+       x="0"
+       y="-3" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.58501053px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.32621109"
-       x="24.209312"
-       y="273.58615"
-       id="text4545"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="297.11392"
+       y="10.414996"
+       id="text821"><tspan
          sodipodi:role="line"
-         id="tspan4543"
-         x="24.209312"
-         y="273.58615"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:raleway;-inkscape-font-specification:raleway;stroke-width:1.32621109">Freefall</tspan></text>
+         id="tspan819"
+         x="297.11392"
+         y="10.414996"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332">Example Text</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:11.28888893px;line-height:1.25;font-family:Raleway;-inkscape-font-specification:'Raleway, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="296.29236"
-       y="8.5296526"
-       id="text848"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:50.79999924px;line-height:1.25;font-family:'Raleway Light';-inkscape-font-specification:'Raleway Light, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="148.4756"
+       y="273.98932"
+       id="text831"><tspan
          sodipodi:role="line"
-         id="tspan846"
-         x="296.29236"
-         y="8.5296526"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:11.28888893px;font-family:Raleway;-inkscape-font-specification:'Raleway, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332">version 0.1.1</tspan></text>
+         id="tspan829"
+         x="148.4756"
+         y="273.98932"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:50.79999924px;font-family:'Raleway Light';-inkscape-font-specification:'Raleway Light, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">Project Title</tspan></text>
   </g>
 </svg>

@@ -1,144 +1,107 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en-US">
+
     
     
     
     <head>
-        
+    
         <meta charset="utf-8">
-        <title> pASW </title>
+        <title> ASW - Return Zero </title>
         
         <link rel="icon" href="img/favicon.png">
-        
-        <link rel="stylesheet" href="css/index.css" >
         <link rel="stylesheet" href="css/fontsheet.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-
+        <link rel="stylesheet" href="css/stylesheet.css">
+    
         <script type="text/javascript" src="js/index.js"></script>
-
+        
     </head>
+        
     
     
     
     <body>
-        
-        
+    
         <header>
             
-            <div class="headpor1">
-                <img class="headimg" src="img/logo.svg">
+            <!--<img class="headimg" src="img/logoreturnzero.svg">-->
+            
+            <div class="retzero">
+                <div class="glitch1 retzerop"></div>
+            </div>
+            <script type="text/javascript" src="js/textjargon.js"></script>
+            
+            <div class="checkstuffout">
+                <button class="glitch no-border w3-btn" onclick="toContent()" data-text="check it out">check it out</button>
             </div>
             
-            <div class="headpor2">
-                <div class="webtitle">
-                    <p class="title">p.ASW</p>
-                    <p class="sub">a collection of andrew woo's projects<span class="blink">&#124;</span></p>
-                </div>
-            </div>
-            
-            <div class="nav">
-                <button style="color:white;" class="w3-btn no-border" onclick="toProject()">Projects</button>
-                <button style="color:white;" class="w3-btn no-border" onclick="toAbout()">About</button>
-            </div>
             
         </header>
         
-
-        <div id="project" style="background:linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(10,125,16,1) 25%, rgba(49,222,176,1) 50%, rgba(41,70,230,1) 75%, rgba(0,5,98,1) 100%);height:1em;"></div>
         
-
-        <div class="content">
-
+        
+        
+        <div id="main" class="content">
+            
             <div class="projects">
+            
                 
-                <div class="pt1">
-                    <object style="width:100%;" data="img/theboredomproject.svg" type="image/svg+xml" autofocus="autofocus"></object>
-                    <a class="w3-btn link" style="width:100%;" href="projects/theboredomproject/theboredomproject.htm">Check it out!</a>
+                <div class="project" id="theboredomproject">
+                    <object data="img/theboredomproject.svg" type="image/svg+xml" autofocus="autofocus"></object>
+                    <a class="w3-btn link" href="projects/theboredomproject/theboredomproject.htm" style="--width:100%">Check it out!</a>
                 </div>
                 
-                <div class="pt1">
-                    <object style="width:100%;" data="img/projectblackbox.svg" type="image/svg+xml" autofocus="autofocus"></object>
-                    <a class="w3-btn link" style="width:100%;" href="projects/projectblackbox/projectblackbox.html">Check it out!</a>
-                </div>
-
-                <div class="pt1">
-                    <object style="width:100%;" data="img/directoryh.svg" type="image/svg+xml" autofocus="autofocus"></object>
-                    <a class="w3-btn link" href="projects/directoryh/directoryh.7z" download>Download</a>
-                    <a class="w3-btn link" href="projects/directoryh/directoryh.htm">Project Page</a>
+                <div class="project" id="openengine">
+                    <object data="img/openengine.svg" type="image/svg+xml" autofocus="autofocus"></object>
+                    <a class="w3-btn link" href="https://github.com/wooandrew/OpenEngine" style="--width:100%">Check it out!</a>
                 </div>
                 
-                <div class="pt1">
-                    <object style="width:100%;" data="img/encrypter.svg" type="image/svg+xml" autofocus="autofocus"></object>
-                    <a class="w3-btn link" href="projects/encrypter/windows_x86_encrypter_version_2_0_5.msi" download>Download</a>
-                    <a class="w3-btn link" href="projects/encrypter/encrypter.htm">Project Page</a>
+                <div class="project" id="encrypter">
+                    <object data="img/encrypter.svg" type="image/svg+xml" autofocus="autofocus"></object>
+                    <a class="w3-btn link" href="projects/encrypter/encrypter.htm" style="--width:49.5%">Project Page</a>
+                    <a class="w3-btn link" href="projects/encrypter/windows_x86_encrypter_version_2_0_5.msi" style="--width:49.5%" download>Download</a>
                 </div>
                 
-                <div class="pt1">
-                    <object style="width:100%;" data="img/freefall.svg" type="image/svg+xml" autofocus="autofocus"></object>
-                    <a class="w3-btn link" href="projects/freefall/freefall_installer_windows-x86_0_1_1.msi" download>Download</a>
-                    <a class="w3-btn link" href="projects/freefall/freefall.html">Check it out!</a>
+                <div class="project" id="freefall">
+                    <object data="img/freefall.svg" type="image/svg+xml" autofocus="autofocus"></object>
+                    <a class="w3-btn link" href="projects/freefall/freefall.html" style="--width:49.5%">Check it out!</a>
+                    <a class="w3-btn link" href="projects/freefall/freefall_installer_windows-x86_0_1_1.msi" style="--width:49.5%" download>Download</a>
                 </div>
                 
-                <div class="pt1">
-                    <object style="width:100%;" data="img/studytools.svg" type="image/svg+xml" autofocus="autofocus"></object>
-                    <a class="w3-btn link" style="width:100%;" href="projects/studytools/studytools.htm">Check it out!</a>
+                <div class="project" id="essays">
+                    <object data="img/essays.svg" type="image/svg+xml" autofocus="autofocus"></object>
+                    <a class="w3-btn link" href="projects/essays/essays.htm" style="--width:100%">Check it out!</a>
                 </div>
                 
-                <div class="pt1">
-                    <object style="width:100%;" data="img/essays.svg" type="image/svg+xml" autofocus="autofocus"></object>
-                    <a class="w3-btn link" style="width:100%;" href="projects/essays/essays.htm">Check it out!</a>
-                </div>
-                
-                <div class="pt1">
-                    <object style="width:100%;" data="img/openengine.svg" type="image/svg+xml" autofocus="autofocus"></object>
-                    <a class="w3-btn link" style="width:100%;" href="https://github.com/wooandrew/OpenEngine">Check it out!</a>
+                <div class="project" id="studytools">
+                    <object data="img/studytools.svg" type="image/svg+xml" autofocus="autofocus"></object>
+                    <a class="w3-btn link" href="projects/studytools/studytools.htm" style="--width:100%">Check it out!</a>
                 </div>
                 
             </div>
             
-            <!-- Discord Invite --
-            <link rel="stylesheet" href="https://discordapp.com/assets/index.4c6657590c4c64268f46.css">
             
-            <div style="position:relative;width:30%;" id="discord-widget">
-                <div class="widget widget-theme-dark">
-                    <div class="widget-header">
-                        <a class="widget-logo" href="https://discordapp.com?utm_source=Discord%20Widget&amp;utm_medium=Logo" target="_blank"></a>
-                        <span class="widget-header-count"><strong>4</strong> Members Online</span>
-                    </div>
-                    <div style="color:black;font-size:2em;">
-                        
-                    </div>
-                    <div class="widget-footer">
-                        <span class="widget-footer-info">Andrew's Server</span>
-                            <a class="widget-btn-connect" href="https://discordapp.com/invite/V3c4yPt?utm_source=Discord%20Widget&amp;utm_medium=Connect" target="_blank">Connect</a>
-                    </div>
-                </div>
-            </div>
-
-            <script>
-                window.GLOBAL_ENV = {
-                    API_ENDPOINT: '//discordapp.com/api',
-                    WEBAPP_ENDPOINT: '//discordapp.com',
-                    CDN_HOST: 'cdn.discordapp.com',
-                    MARKETING_ENDPOINT: '//discordapp.com',
-                    RELEASE_CHANNEL: 'stable',
-                };
-            </script>
-            <!-- Discord Invite -->
-
+        
         </div>
         
-        <div id="about" style="background:linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(10,125,16,1) 25%, rgba(49,222,176,1) 50%, rgba(41,70,230,1) 75%, rgba(0,5,98,1) 100%);height:1em;"></div>
+        
+        
         
         <footer>
-        
-            <p class="oinf">Email: <a style="color:#069;" href="mailto:seungminleader@gmail.com">seungminleader@gmail.com</a><br>
-            Copyright &copy; Andrew Woo 2019</p>
+    
+            <div class="oinf">
+                
+                <p class="details">Email: <a style="color:#069;" href="mailto:seungminleader@gmail.com">seungminleader@gmail.com</a></p>
+                <p class="details">Copyright &copy; Andrew Woo, 2020</p>
+                <p class="webversion">version 3.0</p>
+            
+            </div>
             
         </footer>
-
+    
     </body>
+
     
     
     
