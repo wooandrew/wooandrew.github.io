@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+     <head>
+
+          <meta charset="utf-8">
+
+          <title>Victory Word Search</title>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="script.js"></script>
+
+     </head>
+
+     <body>
+
+          <p>Welcome to Victory Word Search! Challenge inspired by Victoria Lee (hence Victory word search).</p>
+          <p>
+               The Aim of the Game:<br>
+               You will be given a set of random letters. Your job is to find a word that uses all letters in the set.
+          </p>
+
+          <button onclick="generate()">Generate Set</button>
+          <pre id="set"></pre>
+
+          <form>
+               <label for="word">Enter your word:</label>
+               <input type="text" id="word">
+               <input type="submit" value="Submit">
+          </form>
+
+          <br><span id="result" style="color:blue;"></span>
+
+     </body>
+
+</html>
