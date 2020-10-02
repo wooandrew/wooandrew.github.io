@@ -1,1 +1,2 @@
-# flamingthanatos.github.io
+# wooandrew.tech
+Personal static website
