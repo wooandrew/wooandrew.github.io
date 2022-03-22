@@ -1,0 +1,111 @@
+/* CSS File for Project Template _ projtemp.css */
+
+body {
+    position: relative;
+    overflow: auto;
+    margin: 0;
+    min-height: 100%;
+}
+
+.content {
+    position: relative;
+    font-family: "Nexa", sans-serif;
+    
+    overflow: auto;
+    
+    margin: 0 auto;
+    padding-top: 4rem;
+    
+    max-width: 70%;
+    width: 100%;
+}
+
+a:link, a:visited {
+    color: #069;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+/* Header */
+header {
+    float: left;
+    font-family: "AcherusMilitant", "Nexa", sans-serif;
+    
+    position: fixed;
+    
+    max-width: 30%;
+    width: 100%;
+}
+header h1 {
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    
+    margin-top: -18px;
+    margin-bottom: 0;
+}
+header h5 {
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    
+    margin-top: 0;
+}
+
+table {
+    background: #f4f4f4;
+    
+    width: 90%;
+    
+    border: 1px solid black;
+    border-collapse: separate;
+    border-radius: 6px;
+}
+
+th {
+    font-weight: 100;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+th a:link, th a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#7z, #exe, #src {
+    display: block;
+}
+
+th:first-child {
+    border-right: 1px solid black;
+}
+th:last-child {
+    border-left: 1px solid black;
+}
+
+/* Section */
+section {
+    float: right;
+    font-family: "Nexa", sans-serif;
+    
+    max-width: 60%;
+    width: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.how {
+    color: dimgrey;
+    font-size: 20px;
+}
+
+/* Footer */
+footer {
+    bottom: 10px;
+    position: fixed;
+}

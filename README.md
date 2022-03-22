@@ -1,2 +1,2 @@
-# wooandrew.tech
+# wooandrew.dev
 Personal static website

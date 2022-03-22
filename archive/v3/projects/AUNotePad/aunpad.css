@@ -1,0 +1,263 @@
+body {
+    background-color: aqua;
+    font-family: 'Raleway', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: 100;
+
+    padding: 0;
+
+    border-bottom: 2px solid black;
+    height: 10%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+td {
+    min-height: 20%;
+}
+
+
+.w3-btn {
+
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 0.9em;
+
+    vertical-align: middle;
+    text-align: center;
+
+    width: 10em;
+    height: 4vh;
+
+    overflow: hidden;
+    text-decoration: none;
+    border: none;
+    border-radius: 10%/33%;
+    box-shadow: 0 0.5em #999999;
+
+    color: inherit;
+    background-color: inherit;
+    
+    cursor: pointer;
+    white-space: nowrap;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.closebtn {
+    color: red;
+}
+
+.new {
+    background-color: #00c407;
+}
+.new:hover {
+    background-color: rgb(0, 165, 0);
+}
+.reset {
+    background-color: red;
+    
+}
+.reset:hover {
+    background-color: rgb(206, 1, 1);
+}
+
+.buttons {
+    right: 0;
+    min-width: 273;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.win {
+    color: green;
+    font-size: 2vh;
+}
+.loss {
+    color: red;
+    font-size: 2vh;
+}
+
+@media (orientation: landscape) {
+
+    .auAstro {
+        height: 5vh;
+    }
+
+    .content {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        width: 70%;
+        height: 90vh;
+
+        position: absolute;
+
+        top: 50%;
+        left: 50%;
+    
+        transform: translate(-50%, -50%);
+    }
+
+    .manage {
+
+        display: flex;
+        flex-flow: column-reverse;
+        flex: 1 0 0;
+
+        margin-right: 1%;
+
+    }
+
+    .form {
+
+        display: flex; /* CHANGE TO NONE! */
+        flex-direction: column;
+
+        width: 100%;
+        height: 80%;
+        min-width: 273px;
+                            
+        background-color: white;
+        box-shadow: 0.1em 0.1em 0.5em dimgray;
+    }
+    .form_top {
+        margin: 3% 0 0 3%;
+    }
+    .closebtn {                               
+        height: 5vh;                          
+        width: 5vh;                           
+        font-size: 2.5vh;                     
+    } 
+
+    .choose p {
+        
+        width: 100%;
+        text-align: center;
+    }
+    .choose {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .new:active, .reset:active {
+        transform: translateY(0.3vh);
+        box-shadow: 0 0.3em #999999;
+    }
+    
+    .mainNotepad {
+    
+        display: flex;
+        flex-flow: row;
+        flex: 3 0 0;
+
+        width: 60%;
+        min-width: 640px;
+    
+        justify-content: space-between;
+    }
+    
+    
+    .notepad {
+    
+        display: flex;
+        flex-direction: column;
+
+        background-color: white;
+    
+        width: 70%;
+        height: 100%;
+    
+        box-shadow: 0.1em 0.1em 0.5em dimgray;
+    }
+
+    .npUpper {
+
+        display: flex;
+        flex-direction: row;
+        
+        margin: 3%;
+    }
+
+    .npMid {
+
+        display: flex;
+        justify-content: center;
+
+        margin-top: 5%;
+        height: 20%;
+    }
+
+    .trow {
+        font-size: 1.8vh;
+    }
+
+    .data {
+        width: 90%;
+        height: 100%;
+    }
+
+    .WLr {
+        flex: 1.5 0 0;
+        font-size: 2vh;
+    }
+
+    .CGD {
+        flex: 1 0 0;
+        font-size: 2.3vh;
+        margin-top: 1%;
+    }
+
+    .playclass {
+        font-size: 1.5vh;
+    }
+
+    .overall {
+        font-size: 3.5vh;
+    }
+
+    .wlimposter, .wlcrewmate {
+        font-size: 2.3vh;
+    }
+    
+    .sidepanels {
+    
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    
+        width: 29%;
+        height: 100%;
+    }
+    
+    .sidepanel1, .sidepanel2 {
+    
+        background-color:white;
+    
+        width: 100%;
+        height: 45%;
+    
+        box-shadow: 0.1em 0.1em 0.5em dimgray;
+    }
+    
+    .sidepanel2 {
+        height: 54%;
+    }
+}
+
+@media (orientation: portrait) {
+
+}

@@ -1,0 +1,129 @@
+/* General */
+
+html {  
+    height: 100%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    
+    min-width: 810px;
+    min-height: 100%;
+    
+    background-color: #042952;
+}
+
+p {
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #02202a;
+    
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.webtitle {
+    font-size: 70px;
+    font-weight: 100;
+    font-family: "AcherusMilitant", "Arial", sans-serif;
+    
+    text-align: center;
+
+    color: #00435a;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* Content */
+
+.content {
+    width: 90%;
+    
+    margin: auto;
+}
+
+.iconslide {
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin: 0 auto;
+    background-color: #040d13;
+    
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.area1 {
+    display: flex;
+    margin-bottom: 0.5rem;
+    
+    justify-content: space-between;
+}
+
+.nav {
+    width: 20%;
+    background-color: #071f39;
+}
+
+.about {
+    font-family: "Raleway", "Josefin Sans", sans-serif;
+    color: darkgray;
+    
+    width: 79%;
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+    background-color: #071f39;
+}
+
+.welcome {
+    font-weight: 100;
+    font-size: 2rem;
+    
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-bottom: solid black 1px;
+}
+
+.subtitle {
+    font-weight: 100;
+    font-size: 1.3rem;
+    
+    text-decoration: underline;
+    
+    color: white;
+    
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.about p {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.quote {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    
+    background-color: #071f39;
+    
+    text-align: center;
+}
+
+.quote p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    margin: 0;
+}

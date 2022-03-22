@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title> Among Us Notepad </title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="aunpad.css">
+
+    </head>
+
+
+
+    <body>
+
+        <div id="main" class="content">
+
+            <div class="manage">
+
+                
+                <div class="buttons">
+                    <button class="new w3-btn" onclick="new_game()"> New Game </button>
+                    <button class="reset w3-btn" onclick="reset()"> Reset All </button>
+                </div>
+                
+
+                <div id="popup" class="form">
+
+                    <div class="form_top">
+                        <button class="closebtn" onclick="close_form()">&times;</button>
+                        <span>New Game Setup</span>
+                    </div>
+
+                    <hr style="width:95%;">
+                    
+                    <div class="choose">
+                        <p>Are you...</p>
+
+                        <button><img class="auAstro" alt="Among Us Astronaut" src="assets/red.webp"><br> Imposter </button>
+                        <button><img class="auAstro" alt="Among Us Astronaut" src="assets/green.webp"><br> Crewmate </button>
+                    </div>
+
+                    
+                </div>
+
+            </div>
+
+            <div class="mainNotepad">
+
+                <div class="notepad">
+
+                    <div class="npUpper">
+
+                        <div class="WLr">
+    
+                            <span class="overall"> Overall W/L ratio: </span><br>
+                            <span class="win">0</span>/<span class="loss">0</span>
+                            <br><br>
+        
+                            <span class="wlimposter"> Imposter W/L ratio: </span><br>
+                            <span class="win">0</span>/<span class="loss">0</span>
+                            <br><br>
+        
+                            <span class="wlcrewmate"> Crewmate W/L ratio: </span><br>
+                            <span class="win">0</span>/<span class="loss">0</span>
+                            <br><br>
+        
+                        </div>
+    
+                        <div class="CGD">
+    
+                            <span> Current Game Details: </span><br>
+                            You are:<span class="playclass"> N/A </span>
+    
+    
+                        </div>
+
+                    </div>
+
+                    <div class="npMid">
+
+                        <table class="data">
+
+                            
+                            <tr class="trow">
+                                <th> Confirmed Innocent </th>
+                                <th> Confirmed Imposter </th>
+                                <th> Suspect / Kill List </th>
+                            </tr>
+
+                            <tr class="trow">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            
+
+                        </table>
+
+                    </div>
+    
+                </div>
+    
+                <div class="sidepanels">
+    
+                    <div class="sidepanel1">
+    
+    
+    
+                    </div>
+        
+                    <div class="sidepanel2">
+        
+        
+        
+                    </div>
+    
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <script  type="text/javascript" src="aunpad.js"></script>
+
+    </body>
+
+
+
+
+</html>

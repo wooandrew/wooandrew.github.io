@@ -1,0 +1,92 @@
+body {
+    font-family: "Times New Roman";
+    margin: auto;
+    width: 85%;
+    font-size: 1.3em;
+    background-color: white;
+    line-height: 1.6;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+blockquote {
+    font-size: 0.9em;
+    width: 80%;
+    font-family: Open Sans;
+    font-style: italic;
+    color: #555555;
+    padding:0.5em 30px 0.5em 75px;
+    border-left: 8px solid #78C0A8 ;
+    position: relative;
+    background:#EDEDED;
+}
+
+blockquote::before {
+    font-family:Arial;
+    content: "\201C";
+    color:#78C0A8;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+    display:block;
+    color:#333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:0.5em;
+}
+
+#title {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.myth  {
+    margin: 0;
+    margin-top: 2em;
+    font-family: sans-serif;
+}
+.stupid {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.ital {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.undr {
+    text-decoration: underline;
+}
+
+.footnote {
+    vertical-align: super;
+    font-size: 0.6em;
+}
+
+.bibliography {
+    font-size: 1em;
+    line-height: 1;
+}
+
+a.hf {
+    display: block;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: black;
+}
+
+a.herelink {
+    text-decoration: none;
+    color: lightseagreen;
+}

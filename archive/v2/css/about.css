@@ -1,0 +1,34 @@
+/* CSS File for About Page _ about.css */
+
+h1.about {
+    font-size: 30px;
+    font-family: "AcherusMilitant", sans-serif;
+    font-weight: 100;
+    
+    text-align: center;
+    
+    margin: 0;
+    margin-top: 2rem;
+}
+
+#aboutsite {
+    overflow: auto;
+    padding: 5px;
+    border: 1px dashed black;
+}
+
+.explain {
+    font-style: italic;
+    margin: 0;
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
+}
+
+.last {
+    margin-bottom: 0px;
+}
+
+/* Footer override */
+.footer {
+    position: relative;
+}
