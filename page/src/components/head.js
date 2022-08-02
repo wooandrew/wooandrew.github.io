@@ -14,12 +14,12 @@ function Head(props) {
                     <img src={logo} alt="introduction" />
                     <div className="buttons">
                         <a href={resume} className="btn effect01" download><span>Resume</span></a>
-                        <a href='example.com' className="btn effect01"><span>About</span></a>
+                        <a href='https://example.com' className="btn effect01"><span>About</span></a>
                     </div>
                 </div>
 
                 <div className="hother">
-                    Stuff Goes Here
+                    Coming Soon!
                 </div>
 
             </div>
