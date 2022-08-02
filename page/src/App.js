@@ -1,25 +1,39 @@
-import logo from './assets/img/logo.svg';
+import { useState } from 'react';
+import { CSSTransition } from 'react-transition-group';
+
 import './css/App.css';
+import './css/animations.css'
+
+// Import components
+import Ukraine from './components/ukraine';
+import Head from './components/head';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const [ showUkraine, setShowUkraine ] = useState(true);
+
+    const deleteHandler = () => {
+        setShowUkraine(false);
+    }
+
+    return (
+
+        <div className="body">
+
+            <Head />
+            
+            <CSSTransition
+                in={showUkraine}
+                appear={true}
+                timeout={500}
+                classNames="support"
+                unmountOnExit
+            >
+                <Ukraine event={deleteHandler} />
+            </CSSTransition>
+
+        </div>
+    );
 }
 
 export default App;

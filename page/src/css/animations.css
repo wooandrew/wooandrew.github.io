@@ -1,0 +1,75 @@
+/* Fade */
+.fade-appear {
+    opacity: 0;
+}
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    transition: opacity 500ms linear;
+}
+.fade-enter {
+    opacity: 0;
+}
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms linear 500ms;
+}
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms linear;
+}
+.fade-exit-done {
+    opacity: 0;
+}
+
+/* Support Slide Up */
+.support-appear {
+    transform: translateY(-5vmin);
+}
+.support-appear.support-appear-active {
+    transform: translateY(0);
+    transition: all 500ms ease;
+}
+.support-enter {
+    transform: translateY(-5vmin);
+}
+.support-enter.support-enter-active {
+    transform: translateY(0);
+    transition: all 500ms ease;
+}
+.support-exit {
+    transform: translateY(0);
+}
+.support-exit.support-exit-active {
+    transform: translateY(-5vmin);
+    transition: all 500ms ease;
+}
+.support-exit-done {
+    transform: translateY(-5vmin);
+}
+
+/*
+.-appear {
+
+}
+.-appear. -appear-active {
+
+}
+.-enter {
+
+}
+.-enter. -enter-active {
+
+}
+.-exit {
+
+}
+.-exit. -exit-active {
+
+}
+.-exit-done {
+
+}
+*/
