@@ -1,8 +1,8 @@
 cd page
-npm run deploy
-
-git add --all
-git commit -m %1
-git push
+call npm run deploy
 
 cd ..
+
+call git add --all
+call git commit -m %1
+call git push
