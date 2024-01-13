@@ -1,0 +1,309 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@media (orientation: landscape) {
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+    }
+    
+    .hintro {
+        width: 50%;
+        background-color: #0b172e;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .gather {
+        max-height: 100%;
+        width: 80%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .intropic {
+        max-height: 80%;
+        width: 80%;
+    }
+    
+    .buttons {
+        display: flex;
+        margin: 1em 0em;
+        width: 75%;
+        max-height: 20%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .btntxt {
+        display: block;
+        max-height: 100%;
+        width: 100%;
+        font-size: 100%;
+    }
+    
+    .btn {
+        padding: 0.2em 1em;
+        cursor: pointer;
+    
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        
+        line-height: 150%;
+        width: 30%;
+    }
+    .btn:hover {
+        text-decoration: none;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 40%;
+    }
+    
+    /*btn_background*/
+    .effect01 {
+        color: #FFF;
+        border: 4px solid #0d234d;
+        border-radius: 0.2em;
+        box-shadow:0px 0px 0px 1px #265ec7 inset;
+        background-color: #0d234d;
+        overflow: hidden;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+    }
+    .effect01:hover {
+        border: 4px solid #666;
+        background-color: #FFF;
+        box-shadow:0px 0px 0px 4px #EEE inset;
+    }
+    
+    /*btn_text*/
+    .effect01 span {
+        transition: all 0.2s ease-out;
+        z-index: 2;
+    }
+    .effect01:hover span{
+        letter-spacing: 0.13em;
+        color: #333;
+    }
+    
+    /*highlight*/
+    .effect01:after {
+        background: #FFF;
+        border: 0px solid #000;
+        content: "";
+        height: 155px;
+        left: -75px;
+        opacity: .8;
+        position: absolute;
+        top: -50px;
+        -webkit-transform: rotate(35deg);
+                transform: rotate(35deg);
+        width: 50px;
+        transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
+        z-index: 1;
+    }
+    .effect01:hover:after {
+        background: white;
+        border: 20px solid black;
+        opacity: 0;
+        left: 120%;
+        -webkit-transform: rotate(40deg);
+                transform: rotate(40deg);
+    }
+
+    .fa {
+        padding: 0.5em;
+        font-size: 1.5em;
+        width: 1em;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+      
+    .fa:hover {
+        color: black;
+    }
+
+    .fa-github, .fa-linkedin, .fa-envelope {
+        background: rgb(0, 61, 114);
+        color: white;
+    }
+
+    .hother {
+        display: flex;
+        background-color: #61dafb;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: right;
+    }   
+}
+
+
+
+
+
+
+
+@media (orientation: portrait) {
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+    }
+    
+    .hintro {
+        width: 100%;
+        background-color: #0b172e;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .gather {
+        max-height: 100%;
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .intropic {
+        max-height: 80%;
+        width: 95%;
+    }
+    
+    .buttons {
+        display: flex;
+        margin: 1em 0;
+        width: 75%;
+        max-height: 20%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .btntxt {
+        display: block;
+        max-height: 100%;
+        width: 100%;
+        font-size: 100%;
+    }
+    
+    .btn {
+        padding: 0.2em 1em;
+        cursor: pointer;
+    
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        
+        line-height: 150%;
+        width: 30%;
+    }
+    .btn:hover {
+        text-decoration: none;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 65%;
+    }
+
+    /*btn_background*/
+    .effect01 {
+        color: #FFF;
+        border: 4px solid #0d234d;
+        border-radius: 0.2em;
+        box-shadow:0px 0px 0px 1px #265ec7 inset;
+        background-color: #0d234d;
+        overflow: hidden;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+    }
+    .effect01:hover {
+        border: 4px solid #666;
+        background-color: #FFF;
+        box-shadow:0px 0px 0px 4px #EEE inset;
+    }
+    
+    /*btn_text*/
+    .effect01 span {
+        transition: all 0.2s ease-out;
+        z-index: 2;
+    }
+    .effect01:hover span{
+        letter-spacing: 0.13em;
+        color: #333;
+    }
+    
+    /*highlight*/
+    .effect01:after {
+        background: #FFF;
+        border: 0px solid #000;
+        content: "";
+        height: 155px;
+        left: -75px;
+        opacity: .8;
+        position: absolute;
+        top: -50px;
+        -webkit-transform: rotate(35deg);
+                transform: rotate(35deg);
+        width: 50px;
+        transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
+        z-index: 1;
+    }
+    .effect01:hover:after {
+        background: #FFF;
+        border: 20px solid #000;
+        opacity: 0;
+        left: 120%;
+        -webkit-transform: rotate(40deg);
+                transform: rotate(40deg);
+    }
+
+    .fa {
+        padding: 0.5em;
+        font-size: 1em;
+        width: 1em;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+      
+    .fa:hover {
+        color: black;
+    }
+
+    .fa-github, .fa-linkedin, .fa-envelope {
+        background: rgb(0, 61, 114);
+        color: white;
+    }
+    
+    .hother {
+        display: none;
+        background-color: #61dafb;
+        width: 0%;
+        justify-content: center;
+        align-items: center;
+        text-align: right;
+    }
+}

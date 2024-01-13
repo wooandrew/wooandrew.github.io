@@ -1,0 +1,25 @@
+<svg width="600" height="600" version="1.1" viewBox="0 0 158.75 158.75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g transform="translate(0,-138.25)">
+  <text x="29.104166" y="208.36459" style="fill:#000000;font-family:'Times New Roman';font-size:11.289px;letter-spacing:0px;line-height:1.25;word-spacing:0px" xml:space="preserve"/>
+  <text x="59.119446" y="287.53165" style="fill:#000000;font-family:'Times New Roman';font-size:11.289px;letter-spacing:0px;line-height:1.25;word-spacing:0px" xml:space="preserve"/>
+  <circle cx="79.375" cy="217.62" r="63.757" style="fill:none;stroke-linecap:square;stroke-width:3.116;stroke:#fff"/>
+  <g transform="matrix(.75325 0 0 .75325 29.55 48.054)">
+   <path d="m41.558 230.85 24.588 27.781 24.588-27.781-3.5125-3.5125-21.075 24.679-21.075-24.679" style="fill:#fff"/>
+   <g transform="translate(7.9375 -1.3229)" style="fill:#025">
+    <g transform="translate(17.198)" style="fill:#025">
+     <g style="fill:#01324f">
+      <path d="m-10.583 170 25.135 111.12h6.6146l-25.135-111.12z" style="fill:#01324f"/>
+      <path d="m14.552 281.13 26.458-67.469v15.875l-19.844 51.594z" style="fill:#01324f"/>
+     </g>
+     <g transform="matrix(-1 0 0 1 82.021 0)" style="fill:#01324f">
+      <path d="m-10.583 170 25.135 111.12h6.6146l-25.135-111.12z" style="fill:#01324f"/>
+      <path d="m14.552 281.13 26.458-67.469v15.875l-19.844 51.594z" style="fill:#01324f"/>
+     </g>
+    </g>
+    <path id="path1144" d="m9.0328 284.87 49.176-116.85 49.176 116.85h-7.0251l-42.15-103.62-42.15 103.62z" style="fill:#666"/>
+   </g>
+   <path d="m39.687 279.8 26.458-67.469 26.458 67.469h-6.6146l-19.844-51.594-19.844 51.594z" style="fill-opacity:.97585;fill:#999"/>
+  </g>
+  <text transform="translate(55.176 -77.999)" style="fill:#ffffff;font-family:'Agency FB';font-feature-settings:normal;font-size:4.3822px;font-stretch:condensed;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;letter-spacing:0px;line-height:1.25;stroke-width:.10271;word-spacing:0px" xml:space="preserve"><textPath xlink:href="#path1144"><tspan style="fill:#ffffff;font-family:'Agency FB';font-feature-settings:normal;font-size:4.3822px;font-stretch:condensed;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;stroke-width:.10271">Andrew S. Woo</tspan></textPath></text>
+ </g>
+</svg>
