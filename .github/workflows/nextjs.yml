@@ -37,11 +37,11 @@ jobs:
         with:
           node-version: "20"
           
-      - name: Instal npm packages
+      - name: Install npm packages
         run: cd page && npm ci
 
       - name: Build my App
-        run: npm run build && npm run export && touch ./out/.nojekyll
+        run: cd page && npm run build && npm run export && touch ./out/.nojekyll
 
   # Deployment job
   deploy:
