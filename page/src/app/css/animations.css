@@ -1,0 +1,114 @@
+
+/* Rise Up Animation */
+.rise-up-animation-enter {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.rise-up-animation-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.rise-up-animation-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.rise-up-animation-exit-active {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+  
+.c-r-gradient-tr {
+    --size: 250px;
+    --speed: 50s;
+    --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+  
+    width: var(--size);
+    height: var(--size);
+    filter: blur(calc(var(--size) / 5));
+    background-image: linear-gradient(hsl(158, 82, 57, 85%), hsl(252, 82, 57));
+    animation: rotate var(--speed) var(--easing) alternate infinite;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    position: absolute;
+    top: -10%;
+    right: -10%;
+}
+
+.c-r-gradient-tl {
+    --size: 250px;
+    --speed: 50s;
+    --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+  
+    width: var(--size);
+    height: var(--size);
+    filter: blur(calc(var(--size) / 5));
+    background-image: linear-gradient(hsl(158, 82, 57, 85%), hsl(252, 82, 57));
+    animation: rotate var(--speed) var(--easing) alternate infinite;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    position: absolute;
+    top: -5%;
+    left: -5%;
+}
+
+.c-r-gradient-br {
+    --size: 250px;
+    --speed: 50s;
+    --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+  
+    width: var(--size);
+    height: var(--size);
+    filter: blur(calc(var(--size) / 5));
+    background-image: linear-gradient(hsl(158, 82, 57, 85%), hsl(252, 82, 57));
+    animation: rotate var(--speed) var(--easing) alternate infinite;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+}
+
+.c-r-gradient-bl {
+    --size: 250px;
+    --speed: 50s;
+    --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+  
+    width: var(--size);
+    height: var(--size);
+    filter: blur(calc(var(--size) / 5));
+    background-image: linear-gradient(hsl(158, 82, 57, 85%), hsl(252, 82, 57));
+    animation: rotate var(--speed) var(--easing) alternate infinite;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    position: absolute;
+    bottom: -10%;
+    left: -10%;
+}
+
+
+
+@media (min-width: 720px) {
+    .c-r-gradient-tr {
+        --size: 720px;
+    }
+    .c-r-gradient-tl {
+        --size: 720px;
+    }
+    .c-r-gradient-br {
+        --size: 720px;
+    }
+    .c-r-gradient-bl {
+        --size: 720px;
+    }
+}
