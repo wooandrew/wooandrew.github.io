@@ -43,6 +43,11 @@ jobs:
       - name: Build my App
         run: cd page && npm run build && touch ./out/.nojekyll
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./page/out
+
   # Deployment job
   deploy:
     environment:
