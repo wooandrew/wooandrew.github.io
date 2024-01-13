@@ -37,8 +37,8 @@ jobs:
         with:
           node-version: "20"
           
-      - name: Installing my packages
-        run: npm ci
+      - name: Instal npm packages
+        run: cd page && npm ci
 
       - name: Build my App
         run: npm run build && npm run export && touch ./out/.nojekyll
