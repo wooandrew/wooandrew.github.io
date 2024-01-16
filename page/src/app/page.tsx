@@ -28,10 +28,10 @@ export default function Home() {
   return (
     <main className="bg-black">
       <div className="relative max-h-screen max-w-screen overflow-hidden">
-        {/* <div className="c-r-gradient-tl bg-gradient-to-r from-amber-500 via-violet-600 to-pink-500"></div> */}
-        <div className="c-r-gradient-tr bg-gradient-to-r from-emerald-400 via-violet-600 to-cyan-400"></div>
-        {/* <div className="c-r-gradient-br bg-gradient-to-r from-red-600 via-violet-600 to-amber-300"></div> */}
-        <div className="c-r-gradient-bl bg-gradient-to-r from-teal-400 via-green-200 to-yellow-200"></div>
+        <div className="z-0 c-r-gradient-tl bg-gradient-to-r from-amber-500 via-violet-600 to-pink-500"></div>
+        <div className="z-0 c-r-gradient-tr bg-gradient-to-r from-emerald-400 via-violet-600 to-cyan-400"></div>
+        <div className="z-0 c-r-gradient-br bg-gradient-to-r from-red-600 via-violet-600 to-amber-300"></div>
+        <div className="z-0 c-r-gradient-bl bg-gradient-to-r from-teal-400 via-green-200 to-yellow-200"></div>
         <CSSTransition
           in={animationClass}
           timeout={1000} // Animation duration in milliseconds
@@ -40,6 +40,17 @@ export default function Home() {
         >
           <Intro />
         </CSSTransition>
+
+        {/* Button to Scroll Down */}
+        <div className="absolute bottom-0 left-0 right-0 flex justify-center mb-8">
+          <a href="#about" className="flex flex-col items-center justify-center">
+            <svg className="w-6 h-6 text-white animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
+            </svg>
+            <p className="text-white font-mono">Scroll Down</p>
+          </a>
+        </div>
+
       </div>
     </main>
   )
