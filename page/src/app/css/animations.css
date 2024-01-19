@@ -96,8 +96,6 @@
     left: -5%;
 }
 
-
-
 @media (min-width: 720px) {
     .c-r-gradient-tr {
         --size: 720px;
@@ -112,3 +110,4 @@
         --size: 720px;
     }
 }
+

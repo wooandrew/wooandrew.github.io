@@ -7,9 +7,11 @@ import { CSSTransition } from 'react-transition-group';
 
 // Import Components
 import Intro from './components/intro';
+import RotatingTri from './components/tritravelers';
 
 // Import CSS
-import './css/animations.css';  // Import Animations CSS
+import './css/animations.css';      // Import Animations CSS
+import './css/tritravelers.css';    // Import TriTravelers Animation CSS
 
 export default function Home() {
 
@@ -28,10 +30,11 @@ export default function Home() {
   return (
     <main className="bg-black">
       <div className="relative max-h-screen max-w-screen overflow-hidden">
-        <div className="z-0 c-r-gradient-tl bg-gradient-to-r from-amber-500 via-violet-600 to-pink-500"></div>
-        <div className="z-0 c-r-gradient-tr bg-gradient-to-r from-emerald-400 via-violet-600 to-cyan-400"></div>
-        <div className="z-0 c-r-gradient-br bg-gradient-to-r from-red-600 via-violet-600 to-amber-300"></div>
-        <div className="z-0 c-r-gradient-bl bg-gradient-to-r from-teal-400 via-green-200 to-yellow-200"></div>
+        {/* <div className="z-0 c-r-gradient-tl bg-gradient-to-r from-amber-500 via-violet-600 to-pink-500"></div> */}
+        {/* <div className="z-0 c-r-gradient-tr bg-gradient-to-r from-emerald-400 via-violet-600 to-cyan-400"></div> */}
+        {/* <div className="z-0 c-r-gradient-br bg-gradient-to-r from-red-600 via-violet-600 to-amber-300"></div> */}
+        {/* <div className="z-0 c-r-gradient-bl bg-gradient-to-r from-teal-400 via-green-200 to-yellow-200"></div> */}
+        <RotatingTri />
         <CSSTransition
           in={animationClass}
           timeout={1000} // Animation duration in milliseconds
