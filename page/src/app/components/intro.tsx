@@ -26,7 +26,7 @@ const Intro: React.FC = () => {
 
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Intro;

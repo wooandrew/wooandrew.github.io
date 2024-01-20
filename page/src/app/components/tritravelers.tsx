@@ -1,4 +1,4 @@
-
+// Next.js port of Tri Traverlers Animation by Nate Wiley
 
 const TriTravelers = () => {
 
@@ -9,6 +9,6 @@ const TriTravelers = () => {
       ))}
     </div>
   );
-}
+};
 
 export default TriTravelers;
