@@ -20,9 +20,28 @@ const Intro: React.FC = () => {
 
       <div className="flex mt-3">
 
-        <a href="https://github.com/wooandrew" target="_blank" rel="noopener noreferrer"><img className="z-10 filter-white hover:filter-gray w-12" src="/icons8-github.svg" alt="GitHub" /></a>
-        <a href="https://www.instagram.com/wooandrewdev/" target="_blank" rel="noopener noreferrer"><img className="z-10 filter-white hover:filter-gray w-12" src="/icons8-instagram.svg" alt="Instagram" /></a>
-        <a href="https://www.linkedin.com/in/aswoo/" target="_blank" rel="noopener noreferrer"><img className="z-10 filter-white hover:filter-gray w-12" src="/icons8-linkedin.svg" alt="LinkedIn" /></a>
+        <a href="https://github.com/wooandrew" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <img className="z-10 filter-white hover:filter-gray w-12" src="/icons8-github.svg" alt="GitHub" />
+        </a>
+
+
+        <a href="https://www.instagram.com/wooandrewdev/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <img className="z-10 filter-white hover:filter-gray w-12" src="/icons8-instagram.svg" alt="Instagram" />
+        </a>
+
+
+        <a href="https://www.linkedin.com/in/aswoo/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <img className="z-10 filter-white hover:filter-gray w-12" src="/icons8-linkedin.svg" alt="LinkedIn" />
+        </a>
 
       </div>
     </div>
