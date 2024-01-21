@@ -10,8 +10,8 @@ export default function Home() {
     <main className="bg-black">
       <Welcome />
       <div id="about" className="w-screen bg-zinc-900">
-        <div className="text-center pt-5 pb-4 text-4xl font-abel">- Education -</div>
-        <div className="flex justify-center space-between portrait:flex-col">
+        <div className="text-center p-5 text-4xl font-abel">- Education -</div>
+        <div className="flex justify-evenly portrait:flex-col pb-2">
           <EducationCard 
             school="Georgia Institute of Technology | Atlanta, GA" 
             degree="Bachelor of Science in Computer Science" 

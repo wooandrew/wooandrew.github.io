@@ -12,7 +12,7 @@ interface EducationCardProps {
 const EducationCard: React.FC<EducationCardProps> = ({ school, degree, dates, program }) => {
 
   return (
-    <div className="bg-gray-500 font-sans p-4 rounded-md m-2 flex items-center">
+    <div className="bg-gray-500 font-sans p-4 landscape:pr-20 m-2 mt-0 rounded-md flex items-center">
       <object
         type="image/svg+xml"
         data="/GTVertical_RGB.svg"
@@ -24,8 +24,8 @@ const EducationCard: React.FC<EducationCardProps> = ({ school, degree, dates, pr
       <div className="flex flex-col">
         <h2 className="text-lg font-semibold font-abel">{school}</h2>
         <h2 className="text-black font-abel">{degree}</h2>
-        <p className="text-gray-600 font-abel">{dates}</p>
-        <p className="text-gray-600 font-abel">Concentration:<br></br>{program}</p>
+        <p className="text-gray-700 font-abel">{dates}</p>
+        <p className="text-gray-700 font-abel">Concentration:<br></br>{program}</p>
       </div>
     </div>
   );
