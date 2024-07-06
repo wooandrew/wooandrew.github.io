@@ -16,15 +16,15 @@ export default function Home() {
         <div className="text-center p-5 text-4xl font-abel">- About -</div>
         <div className="landscape:w-[80%] m-auto grid grid-cols-3">
           <div className="col-span-2 p-5">
-            <p className="text-2xl font-abel">Hi, I'm Andrew Woo.</p>
-            <p className="text-xl font-abel">I'm a M.S. Computer Science student at the Georgia Institute of Technology, Class of '25, with concentration in High Performance Computing.</p>
-            <p className="text-xl font-abel">I'm passionate about edge-computing, embedded systems, systems architecture, and avionics.</p>
+            <p className="text-2xl font-abel">Hi, I&apos;m Andrew Woo.</p>
+            <p className="text-xl font-abel">I&apos;m a M.S. Computer Science student at the Georgia Institute of Technology, Class of &apos;25, with concentration in High Performance Computing.</p>
+            <p className="text-xl font-abel">I&apos;m passionate about edge-computing, embedded systems, systems architecture, and avionics.</p>
           </div>
           <div className="col-span-1 p-5 m-auto mt-0">
             <p className="text-2xl font-abel">I am currently...</p>
             <ul className="text-xl font-abel pl-5 list-disc list-outside">
               <li className="text-xl font-abel">Interning at Norfolk Southern.</li>
-              <li className="text-xl font-abel">Learning Cisco's Application Centric Infrastructure (ACI) SDN solution.</li>
+              <li className="text-xl font-abel">Learning Cisco&apos;s Application Centric Infrastructure (ACI) SDN solution.</li>
               <li className="text-xl font-abel">Learning the electric guitar.</li>
             </ul>
           </div>
