@@ -13,6 +13,23 @@ export default function Home() {
       <Welcome />
 
       <div id="about" className="w-screen bg-zinc-900">
+        <div className="text-center p-5 text-4xl font-abel">- About -</div>
+        <div className="landscape:w-[80%] m-auto grid grid-cols-3">
+          <div className="col-span-2 p-5">
+            <p className="text-2xl font-abel">Hi, I'm Andrew Woo.</p>
+            <p className="text-xl font-abel">I'm a M.S. Computer Science student at the Georgia Institute of Technology, Class of '25, with concentration in High Performance Computing.</p>
+            <p className="text-xl font-abel">I'm passionate about edge-computing, embedded systems, systems architecture, and avionics.</p>
+          </div>
+          <div className="col-span-1 p-5 m-auto mt-0">
+            <p className="text-2xl font-abel">I am currently...</p>
+            <ul className="text-xl font-abel pl-5 list-disc list-outside">
+              <li className="text-xl font-abel">Interning at Norfolk Southern.</li>
+              <li className="text-xl font-abel">Learning Cisco's Application Centric Infrastructure (ACI) SDN solution.</li>
+              <li className="text-xl font-abel">Learning the electric guitar.</li>
+            </ul>
+          </div>
+        </div>
+
         <div className="text-center p-5 text-4xl font-abel">- Education -</div>
         <div className="landscape:w-[80%] landscape:m-auto landscape:grid landscape:grid-cols-11 portrait:flex portrait:justify-evenly portrait:flex-col pb-2">
           <div className="landscape:col-span-5">
@@ -48,7 +65,7 @@ export default function Home() {
             company="Norfolk Southern"
             position="Intern"
             dates="May 2024 - Present"
-            description={["Working in Norfolk Southern’s production data center in Tucker, Georgia.", "Verified functionality and prepared networking devices for deployment for remote field and railroad operations.", "Worked on optimizing power and load on servers to balance power distribution across power distribution units.", "Developing Python scripts to communicate with and automating network switch configuration."]}
+            description={["Working in Norfolk Southern's production data center in Tucker, Georgia.", "Verified functionality and prepared networking devices for deployment for remote field and railroad operations.", "Worked on optimizing power and load on servers to balance power distribution across power distribution units.", "Developing Python scripts to communicate with and automating network switch configuration."]}
             skills="Software Development, Python, Cisco Application Centric Infrastructure (ACI), Data Center Operations"
           />
           <ExperienceCard
@@ -72,6 +89,17 @@ export default function Home() {
             dates="Jan 2021 - Jul 2023"
             description={["Tutored K-12 math and introductory computer science to groups of up to 4 students.", "Planned and teaching individualized lessons based on each student’s capabilities and understanding.", "Taught math subjects from introductory level addition and subtraction to high school level algebra and calculus.", "Developed and taught a Python cirriculum, from basic programming control flow to game development using PyGame."]}
             skills="Teaching, Curriculum Development, Mathematics Education, Computer Science Education, Python"
+          />
+          <ExperienceCard
+            logo="./none.png"
+            title="Computer Science Tutor"
+            location="Atlanta, GA"
+            mode="Hybrid"
+            company="Self-Employed"
+            position="Tutor"
+            dates="Sep 2020 - Jul 2023"
+            description={["Tutoring computer science to students on request/appointment.", "1 on 1 tutoring for students in high school and college based on individual need.", "Topics ranged from AP® Computer Science Principles to advanced college computer science courses."]}
+            skills="C++, Python, Java, Computer Organization, LC-3 Assembly, Data Structures, Algorithms"
           />
         </div>
 

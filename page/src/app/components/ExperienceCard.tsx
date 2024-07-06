@@ -56,19 +56,20 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ logo, title, location, 
       <div className="w-[20%] m-auto">
         <img src={logo} className="w-full z-10" />
       </div>
-      <div className="w-[80%] grid grid-cols-2 pl-8">
+      <div className="w-[80%] grid landscape:grid-cols-2 pl-8">
         <p className="col-span-1 text-xl font-abel">{title}</p>
-        <p className="col-span-1 text-right font-abel">{location} &#183; {mode}</p>
+        <p className="col-span-1 font-abel landscape:text-right">{location} &#183; {mode}</p>
         <p className="col-span-1 text-gray-700 font-abel">{company} &#183; {position}</p>
-        <p className="col-span-1 text-gray-700 font-abel text-right">{dates} &#183; {calculateTimeAtCompany(dates.split(" - ")[0], dates.split(" - ")[1])}</p>
-        <span className="col-span-2 text-black font-abel"><span className="font-bold">Description:</span><br></br>
+        <p className="col-span-1 text-gray-700 font-abel landscape:text-right">{dates} &#183; {calculateTimeAtCompany(dates.split(" - ")[0], dates.split(" - ")[1])}</p>
+        <span className="landscape:col-span-2 text-black font-abel"><span className="font-bold">Description:</span><br></br>
           <ul className="list-disc pl-8">
             {description.map((item, index) => <li key={index}>{item}</li>)}
           </ul>
         </span>
-        <p className="col-span-2 text-black font-abel"><span className="font-bold">Skills:</span><br></br>
-          <span className="pl-4">{skills}</span>
-        </p>
+        <div className="landscape:col-span-2 text-black font-abel">
+          <p className="font-bold">Skills:</p>
+          <p className="pl-4">{skills}</p>
+        </div>
       </div>
 
     </div>
