@@ -51,17 +51,17 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ logo, title, location, 
 
   return (
 
-    <div className="portrait:w-[90%] bg-gray-500 font-sans p-4 portrait:m-auto portrait:mb-2 landscape:m-2 landscape:mt-0 rounded-md flex flex-row justify-between">
+    <div className="portrait:w-[90%] bg-gray-500 font-sans p-4 portrait:m-auto portrait:mb-2 landscape:m-2 landscape:mt-0 rounded-md flex landscape:flex-row portrait:flex-col justify-between">
 
-      <div className="w-[20%] m-auto">
+      <div className="landscape:w-[20%] portrait:w-[90%] m-auto">
         <img src={logo} className="w-full z-10" />
       </div>
-      <div className="w-[80%] grid landscape:grid-cols-2 pl-8">
-        <p className="col-span-1 text-xl font-abel">{title}</p>
-        <p className="col-span-1 font-abel landscape:text-right">{location} &#183; {mode}</p>
-        <p className="col-span-1 text-gray-700 font-abel">{company} &#183; {position}</p>
-        <p className="col-span-1 text-gray-700 font-abel landscape:text-right">{dates} &#183; {calculateTimeAtCompany(dates.split(" - ")[0], dates.split(" - ")[1])}</p>
-        <span className="landscape:col-span-2 text-black font-abel"><span className="font-bold">Description:</span><br></br>
+      <div className="portrait:w-[90%] landscape:w-[80%] mt-0 m-auto grid landscape:grid-cols-2 landscape:pl-8">
+        <p className="col-span-1 text-xl portrait:text-center font-abel portrait:mt-2">{title}</p>
+        <p className="col-span-1 font-abel landscape:text-right  portrait:text-center">{location} &#183; {mode}</p>
+        <p className="col-span-1 text-gray-700 portrait:text-center font-abel">{company} &#183; {position}</p>
+        <p className="col-span-1 text-gray-700 font-abel portrait:text-center landscape:text-right">{dates} &#183; {calculateTimeAtCompany(dates.split(" - ")[0], dates.split(" - ")[1])}</p>
+        <span className="landscape:col-span-2 portrait:mt-2 text-black font-abel"><span className="font-bold">Description:</span><br></br>
           <ul className="list-disc pl-8">
             {description.map((item, index) => <li key={index}>{item}</li>)}
           </ul>

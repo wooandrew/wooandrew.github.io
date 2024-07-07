@@ -14,7 +14,7 @@ export default function Home() {
 
       <div id="about" className="w-screen bg-zinc-900">
         <div className="text-center p-5 text-4xl font-abel">- About -</div>
-        <div className="landscape:w-[80%] m-auto grid grid-cols-3">
+        <div className="landscape:w-[80%] m-auto grid grid-cols-3 portrait:flex portrait:flex-col">
           <div className="col-span-2 p-5">
             <p className="text-2xl font-abel">Hi, I&apos;m Andrew Woo.</p>
             <p className="text-xl font-abel">I&apos;m a M.S. Computer Science student at the Georgia Institute of Technology, Class of &apos;25, with concentration in High Performance Computing.</p>
