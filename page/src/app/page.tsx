@@ -17,7 +17,8 @@ export default function Home() {
         <div className="landscape:w-[80%] m-auto grid grid-cols-3 portrait:flex portrait:flex-col">
           <div className="col-span-2 p-5">
             <p className="text-2xl font-abel">Hi, I&apos;m Andrew Woo.</p>
-            <p className="text-xl font-abel">I&apos;m a M.S. Computer Science student at the Georgia Institute of Technology, Class of &apos;25, with concentration in High Performance Computing.</p>
+            <p className="text-xl font-abel">I&apos;m a Master&apos;s student at the Georgia Institute of Technology, Class of &apos;25, studying Computer Science with concentration in High Performance Computing. I recieved my Bachelor&apos;s degree in Computer Science with Highest Honors from Georgia Tech in May of 2024, with threads in Systems Architecture and Information/Internetworks.</p>
+            <br></br>
             <p className="text-xl font-abel">I&apos;m passionate about edge-computing, embedded systems, systems architecture, and avionics.</p>
           </div>
           <div className="col-span-1 p-5 m-auto mt-0">
