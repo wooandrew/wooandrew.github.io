@@ -65,9 +65,16 @@ export default function Home() {
             mode="On-Site"
             company="Norfolk Southern"
             position="Intern"
-            dates="May 2024 - Present"
-            description={["Working in Norfolk Southern's production data center in Tucker, Georgia.", "Verified functionality and prepared networking devices for deployment for remote field and railroad operations.", "Worked on optimizing power and load on servers to balance power distribution across power distribution units.", "Developing Python scripts to communicate with and automating network switch configuration."]}
-            skills="Software Development, Python, Cisco Application Centric Infrastructure (ACI), Data Center Operations"
+            dates="May 2024 - August 2024"
+            description={[
+              "Worked at Norfolk Southern's production data center in Tucker, Georgia, assisting in daily operations to ensure zero downtime in production environments and consistent uplink to railroad and operations services.", 
+              "Decommissioned outdated servers and installed new devices as part of Norfolk Southern's data center refresh operations.",
+              "Engineered and configured networking devices for remote field and railroad deployment and ensured seamless field operations by reconfiguring returned devices for recycling or reuse.",
+              "Audited power and load distribution on servers to ensure balanced power usage across power distribution units.",
+              "Automated Cisco Application Centric Infrastructure (ACI) fabric configuration with Python scripts, reducing manual configuration time by 80%, and documented Cisco APIC API endpoints to streamline future automation efforts.",
+              "Audited the Data Center Infrastructure Management (DCIM) tool, ensuring near-100% accuracy across multiple data center domains and improving data integrity for critical infrastructure management."
+            ]}
+            skills="Software Development, Python, Cisco Application Centric Infrastructure (ACI), Data Center Operations, Data Center Infrastructure Management (DCIM)"
           />
           <ExperienceCard
             logo="./ps_logo.png"
@@ -77,7 +84,14 @@ export default function Home() {
             company="Publicis Sapient"
             position="Intern"
             dates="Jun 2023 - Aug 2023"
-            description={["Contributed to the development of a financial services product as a software engineering intern.", "Worked with four software engineering interns and two product management interns to create a full stack application.", "Primarily focused on developing the backend with PostgreSQL, Python, FastAPI, and integrating it into a React.js frontend.", "Developed a Generative AI chatbot using Langchain and Vertex AI to gather real time information about the stocks."]}
+            description={[
+              "Worked as de facto lead backend engineer alongside four software engineering interns and two product management interns to develop a full-stack financial services application from the ground up.",
+              "Architected the backend relational database in PostgreSQL using enhanced Entity-Relationship Diagrams and SQL.",
+              "Developed and optimized the backend API using Python and FastAPI, ensuring seamless integration with the frontend.",
+              "Designed a Generative AI chatbot in Python using Langchain and Vertex AI, enabling real-time stock and market data retrieval and financial portfolio management, and integrated it into the backend API.",
+              "Collaborated with the front-end team to integrate the API, ensuring full functionality and optimal performance.",
+              "Co-led the planning and execution of Intern Corporate Responsibility Day, coordinating activities and tasks for 35 interns."
+            ]}
             skills="Software Development, TypeScript, React.js, Node.js, Python, PostgreSQL, Generative AI, FastAPI, Langchain, Jira, Git"
           />
           <ExperienceCard
