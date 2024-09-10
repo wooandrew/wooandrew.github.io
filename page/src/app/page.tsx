@@ -19,13 +19,16 @@ export default function Home() {
             <p className="text-2xl font-abel">Hi, I&apos;m Andrew Woo.</p>
             <p className="text-xl font-abel">I&apos;m a Master&apos;s student at the Georgia Institute of Technology, Class of &apos;25, studying Computer Science with concentration in High Performance Computing. I received my Bachelor&apos;s degree in Computer Science with Highest Honors from Georgia Tech in May of 2024, with threads in Systems Architecture and Information/Internetworks.</p>
             <br></br>
+            <p className="text-xl font-abel">I am currently working as a Graduate Research Assistant at the Georgia Institute of Technology, assisting in the advancement of research into satellite systems in Low Earth Orbit (LEO) and developing simulations for satellites in cis-lunar and lunar orbit.</p>
+            <br></br>
             <p className="text-xl font-abel">I&apos;m passionate about edge-computing, embedded systems, systems architecture, and avionics.</p>
           </div>
           <div className="col-span-1 p-5 m-auto mt-0">
             <p className="text-2xl font-abel">I am currently...</p>
             <ul className="text-xl font-abel pl-5 list-disc list-outside">
-              <li className="text-xl font-abel">Interning at Norfolk Southern.</li>
-              <li className="text-xl font-abel">Learning Cisco&apos;s Application Centric Infrastructure (ACI) SDN solution.</li>
+              <li className="text-xl font-abel">Working towards my Master&apos;s degree in Computer Science at Georgia Tech.</li>
+              <li className="text-xl font-abel">Working as a Graduate Research Assistant at the Georgia Institute of Technology.</li>
+              <li className="text-xl font-abel">Developing simulations for satellites in Low Earth Orbit (LEO) and Lunar Orbit.</li>
               <li className="text-xl font-abel">Learning the electric guitar.</li>
             </ul>
           </div>
@@ -58,6 +61,22 @@ export default function Home() {
 
         <div className="text-center p-5 text-4xl font-abel">- Experience -</div>
         <div className="landscape:w-[80%] landscape:m-auto">
+          <ExperienceCard
+            logo='./GTVertical_RGB.svg'
+            title="Graduate Research Assistant"
+            location="Atlanta, GA"
+            mode="Hybrid"
+            company="Georgia Institute of Technology"
+            position="Research Assistant"
+            dates="August 2024 - Present"
+            description={[
+              "Advancing research into Low Earth Orbit (LEO) & Lunar Orbit Satellite Orchestration.",
+              "Conducting extensive literature review on existing research into Low Earth Orbit (LEO) Satellite Orchestration and Lunar Orbit simulation.",
+              "Implementing an application orchestration algorithm for satellite constellations based on ground availability, solar energy horizons and energy delivery budgets.",
+              "Developing lunar orbit simulations for satellites to conduct path prediction and generate simulated energy data for lunar satellites."
+            ]}
+            skills="Research, Satellite Systems, Satellite Orchestration, Lunar Orbit Simulation, Python, GMAT"
+          />
           <ExperienceCard
             logo="./ns_logo.png"
             title="Data Center Operations Intern"
