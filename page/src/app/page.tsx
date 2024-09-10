@@ -27,8 +27,10 @@ export default function Home() {
             <p className="text-2xl font-abel">I am currently...</p>
             <ul className="text-xl font-abel pl-5 list-disc list-outside">
               <li className="text-xl font-abel">Working towards my Master&apos;s degree in Computer Science at Georgia Tech.</li>
-              <li className="text-xl font-abel">Working as a Graduate Research Assistant at the Georgia Institute of Technology.</li>
-              <li className="text-xl font-abel">Developing simulations for satellites in Low Earth Orbit (LEO) and Lunar Orbit.</li>
+              <li className="text-xl font-abel">Working as a Graduate Research Assistant researching Satellite Constellations in LEO.</li>
+              <li className="text-xl font-abel">Learning about High Performance Computing (CSE 6220)</li>
+              <li className="text-xl font-abel">Learning about High Performance Computing Architecture (CS 6290)</li>
+              <li className="text-xl font-abel">Learning about Binary Exploitation (CS 6265)</li>
               <li className="text-xl font-abel">Learning the electric guitar.</li>
             </ul>
           </div>
