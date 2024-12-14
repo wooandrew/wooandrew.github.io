@@ -45,7 +45,7 @@ export default function Home() {
               dates="August 2021 - May 2024"
               program="Systems Architecture & Information/Internetworks" 
               link="https://www.cc.gatech.edu/threads-better-way-learn-computing"
-              achivements="VIP Program, Zell Miller Scholarship, Dean's List, Highest Honors"
+              achivements="VIP Program, Zell Miller Scholarship, Dean's List x6, Highest Honors"
             />
           </div>
           <div className="landscape:col-span-1 landscape:columns-xs"></div>
@@ -122,7 +122,7 @@ export default function Home() {
             position="Intern"
             dates="Jun 2023 - Aug 2023"
             description={[
-              "Worked as de facto lead backend engineer alongside four software engineering interns and two product management interns to develop a full-stack financial services application from the ground up.",
+              "Worked as lead backend engineer alongside four software engineering interns and two product management interns to develop a full-stack financial services application from the ground up.",
               "Architected the backend relational database in PostgreSQL using enhanced Entity-Relationship Diagrams and SQL.",
               "Developed and optimized the backend API using Python and FastAPI, ensuring seamless integration with the frontend.",
               "Designed a Generative AI chatbot in Python using Langchain and Vertex AI, enabling real-time stock and market data retrieval and financial portfolio management, and integrated it into the backend API.",
