@@ -56,7 +56,7 @@ export default function Home() {
               dates="August 2024 - May 2025"
               program="High Performance Computing" 
               link="https://cse.gatech.edu/high-performance-computing"
-              achivements="N/A"
+              achivements="TKCTF 1st Place"
             />
           </div>
         </div>
@@ -70,7 +70,7 @@ export default function Home() {
             mode="Hybrid"
             company="Georgia Institute of Technology"
             position="Research Assistant"
-            dates="August 2024 - Present"
+            dates="Aug 2024 - Present"
             description={[
               "Advancing research into Low Earth Orbit (LEO) & Lunar Orbit Satellite Orchestration.",
               "Conducting extensive literature review on existing research into Low Earth Orbit (LEO) Satellite Orchestration and Lunar Orbit simulation.",
@@ -80,13 +80,29 @@ export default function Home() {
             skills="Research, Satellite Systems, Satellite Orchestration, Lunar Orbit Simulation, Python, GMAT"
           />
           <ExperienceCard
+            logo="./fatl_logo.png"
+            title="Research IT Intern"
+            location="Atlanta, GA"
+            mode="Hybrid"
+            company="Federal Reserve Bank of Atlanta"
+            position="Intern"
+            dates="Oct 2024 - Dec 2024"
+            description={[
+              "Analyzed and assessed the performance of different High Performance Computing platforms used by the Federal Reserve Bank of Atlanta.",
+              "Benchmarked HPC clusters and platforms, including in-house Beowulf cluster solutions, Hyper-V machines, and cloud solutions including AWS and the Federal Reserve Bank of Kansas City's CADRE HPC platform.",
+              "Built, deployed, and benchmarked 5 new nodes on the ATL Fed's Beowulf Research Cluster.",
+              "Wrote in depth report discussing benchmarking results and the conclusions derived from them regarding tools used by economists."
+            ]}
+            skills="High Performance Computing (HPC), Hyper-V, Beowulf Clusters, Benchmarking, Python, Matplotlib, Python Seaborn, Linux System Administration"
+          />
+          <ExperienceCard
             logo="./ns_logo.png"
             title="Data Center Operations Intern"
             location="Atlanta, GA"
             mode="On-Site"
             company="Norfolk Southern"
             position="Intern"
-            dates="May 2024 - August 2024"
+            dates="May 2024 - Aug 2024"
             description={[
               "Worked at Norfolk Southern's production data center in Tucker, Georgia, assisting in daily operations to ensure zero downtime in production environments and consistent uplink to railroad and operations services.", 
               "Decommissioned outdated servers and installed new devices as part of Norfolk Southern's data center refresh operations.",
