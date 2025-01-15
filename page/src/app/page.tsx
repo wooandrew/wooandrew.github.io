@@ -17,7 +17,7 @@ export default function Home() {
         <div className="landscape:w-[80%] m-auto grid grid-cols-3 portrait:flex portrait:flex-col">
           <div className="col-span-2 p-5">
             <p className="text-2xl font-abel">Hi, I&apos;m Andrew Woo.</p>
-            <p className="text-xl font-abel">I&apos;m a Master&apos;s student at the Georgia Institute of Technology, Class of &apos;25, studying Computer Science with concentration in High Performance Computing. I received my Bachelor&apos;s degree in Computer Science with Highest Honors from Georgia Tech in May of 2024, with threads in Systems Architecture and Information/Internetworks.</p>
+            <p className="text-xl font-abel">I&apos;m a Master&apos;s student at the Georgia Institute of Technology, Class of &apos;25, studying Computer Science with concentration in Computing Systems. I received my Bachelor&apos;s degree in Computer Science with Highest Honors from Georgia Tech in May of 2024, with threads in Systems Architecture and Information/Internetworks.</p>
             <br></br>
             <p className="text-xl font-abel">I am currently working as a Graduate Research Assistant at the Georgia Institute of Technology, assisting in the advancement of research into satellite systems in Low Earth Orbit (LEO) and developing simulations for satellites in cis-lunar and lunar orbit.</p>
             <br></br>
@@ -27,11 +27,12 @@ export default function Home() {
             <p className="text-2xl font-abel">I am currently...</p>
             <ul className="text-xl font-abel pl-5 list-disc list-outside">
               <li className="text-xl font-abel">Working towards my Master&apos;s degree in Computer Science at Georgia Tech.</li>
-              <li className="text-xl font-abel">Working as a Graduate Research Assistant researching Satellite Constellations in LEO.</li>
-              <li className="text-xl font-abel">Learning about High Performance Computing (CSE 6220)</li>
-              <li className="text-xl font-abel">Learning about High Performance Computing Architecture (CS 6290)</li>
-              <li className="text-xl font-abel">Learning about Binary Exploitation (CS 6265)</li>
-              <li className="text-xl font-abel">Learning the electric guitar.</li>
+              <li className="text-xl font-abel">Working as a Graduate Research Assistant researching Satellite Constellations in cislunar orbit.</li>
+              <li className="text-xl font-abel">Learning about Network Security (CS 6262)</li>
+              <li className="text-xl font-abel">Learning about Graduate Algorithms (CS 6515)</li>
+              <li className="text-xl font-abel">Learning about Enterprise Computing (CS 6365)</li>
+              <li className="text-xl font-abel">Learning about High Performance Parallel Computing (CSE 6230)</li>
+              <li className="text-xl font-abel">Learning about Cybersecurity of Drones (CS 8803 COD)</li>
             </ul>
           </div>
         </div>
@@ -54,8 +55,8 @@ export default function Home() {
               school="Georgia Institute of Technology | Atlanta, GA" 
               degree="Master of Science in Computer Science" 
               dates="August 2024 - May 2025"
-              program="High Performance Computing" 
-              link="https://cse.gatech.edu/high-performance-computing"
+              program="Computing Systems" 
+              link="https://omscs.gatech.edu/specialization-computing-systems"
               achivements="TKCTF 1st Place"
             />
           </div>
