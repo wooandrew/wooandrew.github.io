@@ -17,22 +17,17 @@ export default function Home() {
         <div className="landscape:w-[80%] m-auto grid grid-cols-3 portrait:flex portrait:flex-col">
           <div className="col-span-2 p-5">
             <p className="text-2xl font-abel">Hi, I&apos;m Andrew Woo.</p>
-            <p className="text-xl font-abel">I&apos;m a Master&apos;s student at the Georgia Institute of Technology, Class of &apos;25, studying Computer Science with concentration in Computing Systems. I received my Bachelor&apos;s degree in Computer Science with Highest Honors from Georgia Tech in May of 2024, with threads in Systems Architecture and Information/Internetworks.</p>
+            <p className="text-xl font-abel">I&apos;m a Software and Reverse Engineer at Caesar Creek Software, with a strong background in computing systems and low-level development.</p>
             <br></br>
-            <p className="text-xl font-abel">I am currently working as a Graduate Research Assistant at the Georgia Institute of Technology, assisting in the advancement of research into satellite systems in Low Earth Orbit (LEO) and developing simulations for satellites in cis-lunar and lunar orbit.</p>
+            <p className="text-xl font-abel">I completed my Master&apos;s degree in Computer Science at the Georgia Institute of Technology in May 2025, specializing in Computing Systems. I also earned my Bachelor&apos;s degree in Computer Science from Georgia Tech in May 2024, graduating with Highest Honors and with threads in Systems Architecture and Information Internetworks.</p>
             <br></br>
-            <p className="text-xl font-abel">I&apos;m passionate about edge-computing, embedded systems, systems architecture, and avionics.</p>
+            <p className="text-xl font-abel">I&apos;m passionate about cyber/hardware security, computing systems, edge-computing, embedded systems, systems architecture, high performance computing, and cutting-edge avionics and space systems.</p>
           </div>
           <div className="col-span-1 p-5 m-auto mt-0">
             <p className="text-2xl font-abel">I am currently...</p>
             <ul className="text-xl font-abel pl-5 list-disc list-outside">
-              <li className="text-xl font-abel">Working towards my Master&apos;s degree in Computer Science at Georgia Tech.</li>
-              <li className="text-xl font-abel">Working as a Graduate Research Assistant researching Satellite Constellations in cislunar orbit.</li>
-              <li className="text-xl font-abel">Learning about Network Security (CS 6262)</li>
-              <li className="text-xl font-abel">Learning about Graduate Algorithms (CS 6515)</li>
-              <li className="text-xl font-abel">Learning about Enterprise Computing (CS 6365)</li>
-              <li className="text-xl font-abel">Learning about High Performance Parallel Computing (CSE 6230)</li>
-              <li className="text-xl font-abel">Learning about Cybersecurity of Drones (CS 8803 COD)</li>
+              <li className="text-xl font-abel">Working as a Software and Reverse Engineer at Caesar Creek Software.</li>
+              <li className="text-xl font-abel">Learning to paly the drums and the electric guitar.</li>
             </ul>
           </div>
         </div>
@@ -65,13 +60,26 @@ export default function Home() {
         <div className="text-center p-5 text-4xl font-abel">- Experience -</div>
         <div className="landscape:w-[80%] landscape:m-auto">
           <ExperienceCard
+            logo="./ccsw_logo.jpg"
+            title="Software Engineer II"
+            location="Atlanta, GA"
+            mode="On-Site"
+            company="Caesar Creek Software"
+            position="Full-Time"
+            dates="May 2025 - Present"
+            description={[
+              "Software Engineer II at Caesar Creek Software, specializing in reverse engineering and low-level development.",
+            ]}
+            skills="N/A"
+          />
+          <ExperienceCard
             logo='./GTVertical_RGB.svg'
             title="Graduate Research Assistant"
             location="Atlanta, GA"
             mode="Hybrid"
             company="Georgia Institute of Technology"
             position="Research Assistant"
-            dates="Aug 2024 - Present"
+            dates="Aug 2024 - May 2025"
             description={[
               "Advancing research into Low Earth Orbit (LEO) & Lunar Orbit Satellite Orchestration.",
               "Conducting extensive literature review on existing research into Low Earth Orbit (LEO) Satellite Orchestration and Lunar Orbit simulation.",
