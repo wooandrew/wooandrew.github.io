@@ -81,10 +81,12 @@ export default function Home() {
             position="Research Assistant"
             dates="Aug 2024 - May 2025"
             description={[
-              "Advancing research into Low Earth Orbit (LEO) & Lunar Orbit Satellite Orchestration.",
-              "Conducting extensive literature review on existing research into Low Earth Orbit (LEO) Satellite Orchestration and Lunar Orbit simulation.",
-              "Implementing an application orchestration algorithm for satellite constellations based on ground availability, solar energy horizons and energy delivery budgets.",
-              "Developing lunar orbit simulations for satellites to conduct path prediction and generate simulated energy data for lunar satellites."
+              "Advanced research into Low Lunar Orbit (LLO) & Lunar Orbit Satellite Orchestration.",
+              "Conducted extensive literature review on existing research into Low Earth Orbit (LEO) Satellite Orchestration and Lunar Orbit simulation.",
+              "Conducted simulation-based research on Space-Based Solar Power (SBSP) satellites in Low Lunar Orbit (LLO) to supply energy to lunar surface clients via laser power beaming.",
+              "Leveraged NASA's General Mission Analysis Tool (GMAT) to simulate satellite orbits, eclipses, and line-of-sight conditions critical to power transfer scheduling.",
+              "Developed a power delivery scheduling framework that prioritized power delivery based on real-time illumination, receiver energy needs, and fairness policies.",
+              "Modeled eclipse-aware load balancing strategies, dynamically redirecting beams to optimize energy distribution across multiple lunar clients."
             ]}
             skills="Research, Satellite Systems, Satellite Orchestration, Lunar Orbit Simulation, Python, GMAT"
           />
