@@ -52,7 +52,7 @@ export default function Home() {
               dates="August 2024 - May 2025"
               program="Computing Systems" 
               link="https://omscs.gatech.edu/specialization-computing-systems"
-              achivements="TKCTF 1st Place"
+              achivements="TKCTF 1st Place, Graduate Research Assistant"
             />
           </div>
         </div>
