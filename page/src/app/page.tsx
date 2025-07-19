@@ -27,7 +27,7 @@ export default function Home() {
             <p className="text-2xl font-abel">I am currently...</p>
             <ul className="text-xl font-abel pl-5 list-disc list-outside">
               <li className="text-xl font-abel">Working as a Software and Reverse Engineer at Caesar Creek Software.</li>
-              <li className="text-xl font-abel">Learning to paly the drums and the electric guitar.</li>
+              <li className="text-xl font-abel">Learning to play the drums and the electric guitar.</li>
             </ul>
           </div>
         </div>
