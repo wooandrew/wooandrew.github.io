@@ -60,7 +60,7 @@ export default function Home() {
         <div className="text-center p-5 text-4xl font-abel">- Experience -</div>
         <div className="landscape:w-[80%] landscape:m-auto">
           <ExperienceCard
-            logo="./ccsw_logo.jpg"
+            logo="./ccsw_logo.png"
             title="Software Engineer II"
             location="Atlanta, GA"
             mode="On-Site"
