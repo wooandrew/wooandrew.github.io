@@ -28,6 +28,7 @@ export default function Home() {
             <ul className="text-xl font-abel pl-5 list-disc list-outside">
               <li className="text-xl font-abel">Working as a Software and Reverse Engineer at Caesar Creek Software.</li>
               <li className="text-xl font-abel">Learning to play the drums and the electric guitar.</li>
+              <li className="text-xl font-abel">Chasing my first kendo tournament win.</li>
             </ul>
           </div>
         </div>
@@ -70,7 +71,7 @@ export default function Home() {
             description={[
               "Software Engineer II at Caesar Creek Software, specializing in reverse engineering and low-level development.",
             ]}
-            skills="N/A"
+            skills="C, Python, Reverse Engineering, Machine Learning, Computer Vision"
           />
           <ExperienceCard
             logo='./GTVertical_RGB.svg'
