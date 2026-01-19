@@ -16,8 +16,8 @@ const Intro: React.FC = () => {
 
       {/* Intro Text */}
       <p className="z-10 text-4xl font-mono">Andrew Woo</p>
-      <p className="z-10 font-mono">Software Engineer II</p>
-      <p className="z-10 font-mono">Caesar Creek Software</p>
+      <p className="z-10 font-mono">Software Engineer</p>
+      <p className="z-10 font-mono">Cryptic Vector</p>
 
       <div className="flex mt-3">
 
