@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   style="isolation:isolate"
+   viewBox="0 0 74.587997 64.594002"
+   width="74.587997pt"
+   height="64.594002pt"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="Logo on Light.svg"
+   inkscape:export-filename="Logo on Light.png"
+   inkscape:export-xdpi="1440"
+   inkscape:export-ydpi="1440"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt" />
+  <defs
+     id="defs1">
+    <clipPath
+       id="_clipPath_B7mWHAtoLKZ5jROIDHr1hVeYsloykA6P">
+      <rect
+         width="100"
+         height="100"
+         id="rect1"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#_clipPath_B7mWHAtoLKZ5jROIDHr1hVeYsloykA6P)"
+     id="g2"
+     transform="translate(-12.706001,-17.703)">
+    <linearGradient
+       id="_lgradient_17"
+       x1="-57.781696"
+       y1="0"
+       x2="57.781696"
+       y2="0"
+       gradientTransform="matrix(-0.767503,0.641048,0.64105,0.767501,42.552513,56.111919)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-opacity="1"
+         style="stop-color:rgb(28,209,255)"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-opacity="1"
+         style="stop-color:rgb(0,0,102)"
+         id="stop2" />
+    </linearGradient>
+    <path
+       d="m 50,82.297 3.926,-6.8 L 24.263,24.12 h 45.248 14.078 l 3.705,-6.417 H 50 12.706 L 31.353,50 Z M 56.994,70.266 33.094,28.87 h 31.718 l -4.258,7.18 H 45.531 L 56.994,55.905 68.457,36.05 v 0 l 4.146,-7.18 h 8.291 z"
+       fill-rule="evenodd"
+       fill="url(#_lgradient_17)"
+       id="path2"
+       style="fill:url(#_lgradient_17)" />
+  </g>
+</svg>

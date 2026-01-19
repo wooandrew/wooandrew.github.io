@@ -17,7 +17,7 @@ export default function Home() {
         <div className="landscape:w-[80%] m-auto grid grid-cols-3 portrait:flex portrait:flex-col">
           <div className="col-span-2 p-5">
             <p className="text-2xl font-abel">Hi, I&apos;m Andrew Woo.</p>
-            <p className="text-xl font-abel">I&apos;m a Software and Reverse Engineer at Caesar Creek Software, with a strong background in computing systems and low-level development.</p>
+            <p className="text-xl font-abel">I&apos;m a Software and Reverse Engineer at Cryptic Vector, with a strong background in computing systems and low-level development.</p>
             <br></br>
             <p className="text-xl font-abel">I completed my Master&apos;s degree in Computer Science at the Georgia Institute of Technology in May 2025, specializing in Computing Systems. I also earned my Bachelor&apos;s degree in Computer Science from Georgia Tech in May 2024, graduating with Highest Honors and with threads in Systems Architecture and Information Internetworks.</p>
             <br></br>
@@ -26,7 +26,7 @@ export default function Home() {
           <div className="col-span-1 p-5 m-auto mt-0">
             <p className="text-2xl font-abel">I am currently...</p>
             <ul className="text-xl font-abel pl-5 list-disc list-outside">
-              <li className="text-xl font-abel">Working as a Software and Reverse Engineer at Caesar Creek Software.</li>
+              <li className="text-xl font-abel">Working as a Software and Reverse Engineer at Cryptic Vector.</li>
               <li className="text-xl font-abel">Learning to play the drums and the electric guitar.</li>
               <li className="text-xl font-abel">Chasing my first kendo tournament win.</li>
             </ul>
@@ -61,15 +61,31 @@ export default function Home() {
         <div className="text-center p-5 text-4xl font-abel">- Experience -</div>
         <div className="landscape:w-[80%] landscape:m-auto">
           <ExperienceCard
+            logo="./cv_logo.png"
+            title="Software Engineer"
+            location="Atlanta, GA"
+            mode="On-Site"
+            company="Cryptic Vector"
+            position="Full-Time"
+            dates="Jan 2026 - Present"
+            description={[
+              "Software Engineer at Cryptic Vector, specializing in reverse engineering and low-level development.",
+            ]}
+            skills="C, Python, Reverse Engineering, Machine Learning, Computer Vision"
+          />
+          <ExperienceCard
             logo="./ccsw_logo.png"
             title="Software Engineer II"
             location="Atlanta, GA"
             mode="On-Site"
-            company="Caesar Creek Software"
+            company="Caesar Creek Software (acquired by Cryptic Vector)"
             position="Full-Time"
-            dates="May 2025 - Present"
+            dates="May 2025 - Dec 2025"
             description={[
-              "Software Engineer II at Caesar Creek Software, specializing in reverse engineering and low-level development.",
+              "Worked on software engineering, reverse engineering, and general computer-related engineering projects.",
+              "Completed structured training in reverse engineering techniques and tooling as part of professional development.",
+              "Contributed to IRAD projects involving systems analysis and vulnerability research on novel microarchitectures.",
+              "Developed proof-of-concept hardware reverse engineering tooling leveraging computer vision as part of an IRAD."
             ]}
             skills="C, Python, Reverse Engineering, Machine Learning, Computer Vision"
           />
